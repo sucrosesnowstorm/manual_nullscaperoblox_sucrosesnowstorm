@@ -1,0 +1,978 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+  "data": [
+    {
+      "victory": true,
+      "name": "Bloom. (10)",
+      "category": [
+        "BLOOM"
+      ],
+      "requires": "{blossomFragmentReq()} AND |Progressive Ungate Levels:1| AND {rootsReq()}"
+    },
+    {
+      "victory": true,
+      "name": "Bloom. (15)",
+      "category": [
+        "BLOOM"
+      ],
+      "requires": "{blossomFragmentReq()} AND |Progressive Ungate Levels:2| AND {rootsReq()}"
+    },
+    {
+      "victory": true,
+      "name": "Bloom. (20)",
+      "category": [
+        "BLOOM"
+      ],
+      "requires": "{blossomFragmentReq()} AND |Progressive Ungate Levels:3| AND {rootsReq()}"
+    },
+    {
+      "name": "Encounter Voidbound Enemy",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Survive Voidbreaker Encounter",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "3 Husk Curses",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "2 Tripmine Curses",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Greater Curse",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Burn",
+      "category": [
+        "Any"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Become Concussed",
+      "category": [
+        "Any"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Escape With Spare Shield",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Escape With Spare Subspacial Barrier",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels:2| AND |Seed of Immortality:3|"
+    },
+    {
+      "name": "Reach Level 5 [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class|"
+    },
+    {
+      "name": "All Gold Gifts [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class|"
+    },
+    {
+      "name": "Escape After Complete Destruction (Level 3+) [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| "
+    },
+    {
+      "name": "Take Baby [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class|"
+    },
+    {
+      "name": "Encounter Flesh [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Take Husk [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| "
+    },
+    {
+      "name": "Encounter Telefragger [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Medal Curse [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| AND |Progressive Ungate Levels| AND |Seed of Potential:3|"
+    },
+    {
+      "name": "Altar of Purgatory [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Reach Level 13 [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Overtuned [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| "
+    },
+    {
+      "name": "Detonate 5 Tripmines In A Level [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| "
+    },
+    {
+      "name": "ICBM Curse [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| "
+    },
+    {
+      "name": "Drop Bounce On Grapple Point [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| AND |Progressive Ungate Levels| AND |Seed of Nullscape:2|"
+    },
+    {
+      "name": "Ride Grindrail [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Abilityless Level (Level 3+) [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| "
+    },
+    {
+      "name": "Reach Level 5 [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
+      "name": "All Gold Gifts [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
+      "name": "Escape After Complete Destruction (Level 3+) [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
+      "name": "Take Baby [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
+      "name": "Encounter Flesh [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Take Husk [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
+      "name": "Encounter Telefragger [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Medal Curse [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| AND |Progressive Ungate Levels| AND |Seed of Potential:3|"
+    },
+    {
+      "name": "Altar of Purgatory [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Reach Level 13 [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Overtuned [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
+      "name": "Dive Into Bell [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
+      "name": "Survive A Ninja Belt Bonk [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| AND |Progressive Ungate Levels:2| AND |Seed of Introspection:2|"
+    },
+    {
+      "name": "Telefragger Curse [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Dive Into Grapple Point [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| AND |Progressive Ungate Levels| AND |Seed of Nullscape:2|"
+    },
+    {
+      "name": "Abilityless Level (Level 3+) [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
+      "name": "Reach Level 5 [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "All Gold Gifts [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Escape After Complete Destruction (Level 3+) [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Take Baby [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Encounter Flesh [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Take Husk [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Encounter Telefragger [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Medal Curse [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels| AND |Seed of Potential:3|"
+    },
+    {
+      "name": "Altar of Purgatory [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Reach Level 13 [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Overtuned [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Take Mart And Springer [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Clear A Gold Tile With A Single Fling [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels| AND |Seed of Potential:4|"
+    },
+    {
+      "name": "Above The Beacon's Clouds [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Chance Curse [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Abilityless Level (Level 3+) [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Reach Level 5 [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "All Gold Gifts [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "Escape After Complete Destruction (Level 3+) [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "Take Baby [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "Encounter Flesh [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Take Husk [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "Encounter Telefragger [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Medal Curse [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels| AND |Seed of Potential:3|"
+    },
+    {
+      "name": "Altar of Purgatory [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Reach Level 13 [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Overtuned [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "Disable Jump Pad [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "Grapple Point Combo [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels| AND |Seed of Nullscape:2|"
+    },
+    {
+      "name": "Seamine Grappler [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Take Flesh And Operator [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Abilityless Level (Level 3+) [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "Reach Level 5 [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
+      "name": "All Gold Gifts [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
+      "name": "Escape After Complete Destruction (Level 3+) [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
+      "name": "Take Baby [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
+      "name": "Encounter Flesh [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Take Husk [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
+      "name": "Encounter Telefragger [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Medal Curse [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| AND |Progressive Ungate Levels| AND |Seed of Potential:3|"
+    },
+    {
+      "name": "Altar of Purgatory [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Reach Level 13 [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Overtuned [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
+      "name": "Flesh Curse [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Survive A Bonk [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
+      "name": "Glide Into A Grapple Point [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| AND |Progressive Ungate Levels| AND |Seed of Nullscape:2|"
+    },
+    {
+      "name": "Survive Seamine Detonation [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Abilityless Level (Level 3+) [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
+      "name": "Reach Level 5 [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "All Gold Gifts [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "Escape After Complete Destruction (Level 3+) [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "Take Baby [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "Encounter Flesh [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Take Husk [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "Encounter Telefragger [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Medal Curse [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class| AND |Progressive Ungate Levels| AND |Seed of Potential:3|"
+    },
+    {
+      "name": "Altar of Purgatory [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Overtuned [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "Take Useless Upgrade [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class| AND (|Progressive Ungate Levels| AND (|Seed of Control:3| OR |Seed of Introspection|)) OR (|Progressive Ungate Levels:2| AND |Seed of Immortality:3|)"
+    },
+    {
+      "name": "Take Bell And Springer [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "Use Jump Pad [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "Use Altar [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
+      "name": "Reach Level 5 [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| "
+    },
+    {
+      "name": "All Gold Gifts [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| "
+    },
+    {
+      "name": "Escape After Complete Destruction (Level 3+) [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| "
+    },
+    {
+      "name": "Take Baby [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| "
+    },
+    {
+      "name": "Encounter Flesh [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Take Husk [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| "
+    },
+    {
+      "name": "Encounter Telefragger [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Medal Curse [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND |Seed of Potential:3|"
+    },
+    {
+      "name": "Altar of Purgatory [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels|"
+    },
+    {
+      "name": "Reach Level 13 [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Overtuned [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| "
+    },
+    {
+      "name": "Take Husk and ICBM [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| "
+    },
+    {
+      "name": "2 Medal Curses [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND |Seed of Potential:3|"
+    },
+    {
+      "name": "Survive Kolóna Encounter [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Bounce Tourist [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND |Seed of Nullscape:3|"
+    },
+    {
+      "name": "Seamine Curse",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Kolóna Curse",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    }
+  ]
+}
