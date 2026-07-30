@@ -17,6 +17,7 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
+import random
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -42,6 +43,11 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
+    all_classes = {"Prisoner", "Wanted", "Charger", "Diver", "Spirit", "Grappler", "Glider"}
+    excluded = multiworld.worlds[player].options.classSelect.value
+
+    if all_classes.issubset(excluded):
+        raise Exception("You need at least one class included in logic")
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -74,6 +80,48 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    # Lists of Potential Classes, as well as a fallback in case the starting class is excluded from the pool
+    class_map = {
+        0: "Prisoner Class",
+        1: "Wanted Class",
+        2: "Charger Class",
+        3: "Glider Class",
+        4: "Grappler Class",
+        5: "Spirit Class",
+        6: "Diver Class",
+    }
+    short_name_map = {
+        "Prisoner Class": "Prisoner",
+        "Wanted Class": "Wanted",
+        "Charger Class": "Charger",
+        "Diver Class": "Diver",
+        "Spirit Class": "Spirit",
+        "Grappler Class": "Grappler",
+        "Glider Class": "Glider",
+    }
+
+    startClass = get_option_value(multiworld, player, "starting_class")
+    item_name = class_map.get(startClass)
+
+    excluded = multiworld.worlds[player].options.classSelect.value
+
+    # If the chosen starting class doesn't exist in the pool (excluded), fall back to a random valid class instead.
+    existing_item = next((i for i in item_pool if i.name == item_name), None) if item_name else None
+
+    if not existing_item:
+        valid_classes = [
+            name for name in class_map.values()
+            if short_name_map[name] not in excluded
+        ]
+        if valid_classes:
+            logging.info("The chosen starting class is excluded. Selecting a random valid class instead.")
+            item_name = random.choice(valid_classes)
+            existing_item = next((i for i in item_pool if i.name == item_name), None)
+
+    if existing_item:
+        item_pool.remove(existing_item)
+        multiworld.push_precollected(existing_item)
+
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
@@ -81,8 +129,47 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
 
-    # Add your code here to calculate which items to remove.
-    #
+    # Used to dynamically change the amount of Progressive Ungate Levels in the item pool based on the goal type selected by the player.
+    #needed = get_option_value(multiworld, player, "goal type")
+    #max_needed = 7
+    #ungate_amount = max_needed - needed
+    #if ungate_amount < 0:
+    #    ungate_amount = 0  # The Other goals also require all 5 ungate levels, so if the calculation goes negative, set it to 0 to avoid removing any.
+    
+    #for i in range(ungate_amount):
+    #    itemNamesToRemove.append("Progressive Ungate Levels") #Adds the correct amount of Progressive Ungate Levels to the list of items to remove from the item pool, based on the goal type selected by the player.
+
+    #Removes the Lower Difficulty Items if they are disabled from the pool. These are useful items, no need to change logic about it.
+    if is_option_enabled(multiworld, player, "randomize_lower_difficulty"):
+        itemNamesToRemove.append("Progressive Lower Difficulty")
+        itemNamesToRemove.append("Progressive Lower Difficulty")
+
+    # Removes the Roots items from the item pool if the option is disabled.
+    if not is_option_enabled(multiworld, player, "randomize_roots"):
+        itemNamesToRemove.append("ROOTS IN DEFIANCE")
+        itemNamesToRemove.append("ROOTS IN CERTAINTY")
+        itemNamesToRemove.append("ROOTS IN PERSISTENCE")
+        itemNamesToRemove.append("ROOTS IN VERSATILITY")
+        itemNamesToRemove.append("ROOTS IN SELF-AWARENESS")
+        itemNamesToRemove.append("ROOTS IN TRUST")
+        itemNamesToRemove.append("ROOTS IN BRAVERY")
+
+    # Removes The Level 15+ Upgrades if the option is disabled.
+    if not is_option_enabled(multiworld, player, "randomize_lategame_upgrades"):
+        for _ in range(2):
+            itemNamesToRemove.append("Seed of Potential")       
+        for _ in range(2):
+            itemNamesToRemove.append("Seed of Control")
+        for _ in range(2):
+            itemNamesToRemove.append("Seed of Introspection")
+        itemNamesToRemove.append("Seed of Omnipotence")
+        for _ in range(3):
+            itemNamesToRemove.append("Seed of Immortality")
+
+    if get_option_value(multiworld, player, "total_blossom_fragments") < 40:
+        fragments_to_remove = 40 - get_option_value(multiworld, player, "total_blossom_fragments")
+        for _ in range(fragments_to_remove):
+            itemNamesToRemove.append("FRAGMENT OF BLOSSOM")
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
 

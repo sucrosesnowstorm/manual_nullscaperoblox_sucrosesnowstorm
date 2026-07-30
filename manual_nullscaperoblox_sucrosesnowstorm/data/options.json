@@ -2,81 +2,93 @@
     "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
     "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
     "core": {
-        "goal":{
-            "_comment": [
-                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
-            ],
-            "display_name": "The End Objective",
-            "description": "How to End your Randomized playthrough.",
-            "aliases": {"easiest": 0},
+        "_comment":{
+            "display_name": "Goal Level",
+            "description": "What level you need to reach to win this APworld",
+            "values": {"Level 10": 0, "Level 15":  1, "Level 20": 2},
+            "type": "Choice",
+            "default": 1,
             "hidden": false
-        },
-        "death_link": {
-            "default": false
-        },
-        "filler_traps": {
-            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
-            "values": {
-                "recommended": 20
-            }
         }
     },
     "user": {
-        "_commented_out_option":{
-            "type": "Toggle",
-            "default": true
-        },
-        "Example_Toggle":{
+        "starting class":{
             "description": [
-                "This is a Toggle",
-                "A simple boolean, aka True or False set the initial value with \"default\""
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Example Options"
-        },
-        "Example_Choice":{
-            "type": "Choice",
-            "description": [
-                "This is a Choice",
-                "Let the user pick from a list of values",
-                "allow_custom_value let a player define their own text value",
-                "Currently the only use for Choice in Manual outside of hooks is the goal"
+                "Choose which class the player starts with"
             ],
             "values": {
-                "start":0,
-                "test":1
-             },
+                "prisoner":0,
+                "wanted":1,
+                "charger":2,
+                "glider":3,
+                "grappler":4,
+                "spirit":5,
+                "diver":6
+            },
+            "display_name": "Starting Class",
+            "type": "Choice",
             "default": 0,
             "allow_custom_value": false,
-            "group": "Example Options"
+            "group": "Class Options"
         },
-        "Example_Range":{
-            "type": "Range",
+        "randomize lategame upgrades": {  
             "description": [
-                "This is a Range",
-                "Allow the player to specify a value between 'start' and 'end'",
-                "if you include a \"values\" you can define the label for certain values",
-                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
+                "By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later."
             ],
-            "range_start": 0,
-            "default": 1,
-            "range_end": 5,
-            "values": {"example": 2},
-            "group": "Example Options"
+            "display_name": "Randomize Lategame Upgrades",
+            "type": "Toggle"
         },
-
-        "DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
-            "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
+        "total blossom fragments": {
+            "description": [
+                "How many Blossom Fragments are in the multiworld."
             ],
-            "default": true
+            "display_name": "Total Blossom Fragments",
+            "type": "Range",
+            "default": 30,
+            "range_start": 0,
+            "range_end": 40,
+            "group": "Goal Options"
+        },
+        "blossom fragments required": {
+            "description": [
+                "How many Blossom Fragments are required to goal. (Recommened to be 10 less than total)"
+            ],
+            "display_name": "Blossom Fragments Required",
+            "type": "Range",
+            "default": 20,
+            "range_start": 0,
+            "range_end": 40,
+            "group": "Goal Options"
+        },
+        "goal":{
+            "display_name": "Goal Type",
+            "description": "What do you need to do to win this APworld",
+            "alias": {
+                "Reach Level 10": 1, 
+                "Reach Level 15": 2, 
+                "Reach Level 20": 3 
+            },
+            "type": "Choice",
+            "default": 1,
+            "hidden": false,
+            "group": "Goal Options"
+        },
+        "randomize roots": {
+            "description": [
+                "Randomizes Each Classes' Roots, which are required for a class to goal"
+            ],
+            "display_name": "Randomize Roots",
+            "type": "Toggle",
+            "default": 1,
+            "group": "Goal Options"
+        },
+        "randomize lower difficulty": {
+            "description": [
+                "Randomizes the Progressive Lower Difficulties. When enabled, the player starts on Extreme, and can lower difficuilty when items are"
+            ],
+            "display_name": "Randomize Progessive Lower Difficulty",
+            "type": "Toggle",
+            "default": 1
         }
     }
-
 }
