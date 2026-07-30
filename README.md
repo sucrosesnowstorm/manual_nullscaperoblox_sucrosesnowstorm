@@ -1,19 +1,53 @@
 # Nullscape (ROBLOX) Manual APWorld
 ### **<ins>By StudMuffin and sucrosesnowstorm</ins>**
 
-For Nullscape \[DOOM IN BLOOM]. Recommended to have most if not all classes unlocked.
+Manual APWorld for Nullscape \[DOOM IN BLOOM]. Recommended to have most if not all classes unlocked.
+
+As of v1.0.0, traps are included by default and are non-customizable. This will be fixed in the future, but this is Manual so ignore it if you don't want to deal with em.
+ignore filler_traps, it's like a weird spirit haunting our apworld.
+
 
 </br></br>
 
+
 ## "gimme a quick summary"
 Players start with all classes (but one) locked, may not purchase any upgrades, and cannot access Level 5 and beyond until unlocking each as [items](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#progression). All Upgrades are spread into six sets of "[Seeds](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#upgrades)", which each are progressive unlocks for a certain *category* of Upgrade (e.g. the 3rd *Seed of Control* unlocks purchasing Double Jump).
-The goal is to reach a set "final level" with a class that you have it's respective "[ROOTS](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" item in (optional) and a prerequisite amount of "[*FRAGMENT OF BLOSSOM*](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" (usually 20 of 30 total).
+The goal is to reach a set "final level" with a class that you have its respective "[ROOTS](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" item in (optional) and a prerequisite amount of "[*FRAGMENT OF BLOSSOM*](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" (also optional, usually 20 of 30 total).
+
+
 
 </br></br></br>
 
-## YAML OPTIONS
-tba
 
+
+## YAML OPTIONS
+
+
+- ***Randomize Lategame Upgrades*** (`randomize_lategame_upgrades`, default: `true`)
+> By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later. Upgrades excluded by this option are written in italics in the [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#upgrades).
+
+- ***Randomize Difficulty Selection*** (`randomize_lower_difficulty`, default: `true`)
+> Adds 2 '[Progressive Lower Difficulty](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#progression)'s. When included, the player starts on Extreme, and can lower difficulty when the items are collected.
+
+- ***Starting Class*** (`starting_class`, default: `prisoner`, other choices: `wanted`, `charger`, `glider`, `grappler`, `spirit`, and `diver`)
+> Choose which class the player starts with.
+
+- ***goal*** (`goal`, default: `reach level 10`, other choices: `reach level 15` and `reach level 20`)
+> What do you need to do to win this APWorld, once meeting all other requirements.
+
+- ***Total FRAGMENT OF BLOSSOM*** (`total_blossom_fragments`, default: `30`, range of `0`-`40`)
+> How many [FRAGMENT OF BLOSSOM](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) are randomized.
+
+- ***FRAGMENT OF BLOSSOM required*** (`blossom_fragments_required`, default: `20`, range of `0`-`40`)
+> How many [FRAGMENT OF BLOSSOM](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) are required to goal. (Recommened to be ~10 less than total).
+
+- ***Randomize ROOTS*** (`randomize_roots`, default: `true`)
+> Include a ROOTS item for each class, which are a requirement for a class to goal. See [summary](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#gimme-a-quick-summary) and [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) for more info.
+
+- ***Classes Excluded*** (`classSelect`, default: none)
+> Exclude specific classes from the randomizer (except Charger/Diver).
+> These are "`Grappler`", "`Spirit`", "`Glider`", "`Prisoner`", and "`Wanted`" (case sensitive).
+> Each class contains a significant amount of locations, so avoid removing too many without also removing items to compensate.
 
 
 </br></br>
@@ -76,19 +110,19 @@ tba
 > 2) Ungate Levels 10-14
 > 3) Ungate Levels 15-19
 > 4) Ungate All Levels
-- ***Progressive Lower Difficulty*** (Progression): Unlock difficulties lower than Extreme. Can be excluded to allow play on any difficulty.
+- ***Progressive Lower Difficulty*** (Progression): Unlock difficulties lower than Extreme. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options) to allow play on any difficulty.
 > 1) Standard Difficulty
 > 2) Casual Difficulty </br>
 
 ### <ins>*Class Unlocks*</ins>
 
-- ***Diver Class*** (Progression): Unlock Diver. May be given by default if set to be so.
-- ***Charger Class*** (Progression): Unlock Charger. May be given by default if set to be so.
-- ***Grappler Class*** (Progression): Unlock Grappler. May be given by default or excluded if set to be so.
-- ***Spirit Class*** (Progression): Unlock Spirit. May be given by default or excluded if set to be so.
-- ***Glider Class*** (Progression): Unlock Glider. May be given by default or excluded if set to be so.
-- ***Prisoner Class*** (Progression): Unlock Prisoner. May be given by default or excluded if set to be so.
-- ***Wanted Class*** (Progression): Unlock Wanted. May be given by default or excluded if set to be so. </br>
+- ***Diver Class*** (Progression): Unlock Diver. [May be given by default if set to be so](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***Charger Class*** (Progression): Unlock Charger. [May be given by default if set to be so](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***Grappler Class*** (Progression): Unlock Grappler. [May be given by default or excluded if set to be so](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***Spirit Class*** (Progression): Unlock Spirit. [May be given by default or excluded if set to be so](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***Glider Class*** (Progression): Unlock Glider. [May be given by default or excluded if set to be so](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***Prisoner Class*** (Progression): Unlock Prisoner. [May be given by default or excluded if set to be so](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***Wanted Class*** (Progression): Unlock Wanted. [May be given by default or excluded if set to be so](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options). </br>
 
 ### <ins>*Traps*</ins>
 
@@ -102,14 +136,14 @@ tba
 
 ### <ins>*BLOOM.*</ins>
 
-- ***ROOTS IN VERSATILITY*** (Progression): Allow the player to select Diver as their class of choice when aiming to goal. Can be excluded.
-- ***ROOTS IN PERSISTENCE*** (Progression): Allow the player to select Charger as their class of choice when aiming to goal. Can be excluded.
-- ***ROOTS IN TRUST*** (Progression): Allow the player to select Grappler as their class of choice when aiming to goal. Can be excluded.
-- ***ROOTS IN SELF-AWARENESS*** (Progression): Allow the player to select Spirit as their class of choice when aiming to goal. Can be excluded.
-- ***ROOTS IN BRAVERY*** (Progression): Allow the player to select Glider as their class of choice when aiming to goal. Can be excluded.
-- ***ROOTS IN CERTAINTY*** (Progression): Allow the player to select Prisoner as their class of choice when aiming to goal. Can be excluded.
-- ***ROOTS IN DEFIANCE*** (Progression): Allow the player to select Wanted as their class of choice when aiming to goal. Can be excluded.
-- ***FRAGMENT OF BLOSSOM*** (Progression): Allow the player to attempt to goal if a certain threshold of duplicates are acquired. Total amount, and amount required to goal will vary on player preference. Can be excluded. </br>
+- ***ROOTS IN VERSATILITY*** (Progression): Allow the player to select Diver as their class of choice when aiming to goal. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***ROOTS IN PERSISTENCE*** (Progression): Allow the player to select Charger as their class of choice when aiming to goal. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***ROOTS IN TRUST*** (Progression): Allow the player to select Grappler as their class of choice when aiming to goal. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***ROOTS IN SELF-AWARENESS*** (Progression): Allow the player to select Spirit as their class of choice when aiming to goal. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***ROOTS IN BRAVERY*** (Progression): Allow the player to select Glider as their class of choice when aiming to goal. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***ROOTS IN CERTAINTY*** (Progression): Allow the player to select Prisoner as their class of choice when aiming to goal. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***ROOTS IN DEFIANCE*** (Progression): Allow the player to select Wanted as their class of choice when aiming to goal. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options).
+- ***FRAGMENT OF BLOSSOM*** (Progression): Allow the player to attempt to goal if a certain threshold of duplicates are acquired. Total amount, and amount required to goal will vary on [player preference](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options). [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options). </br>
 
 
 </br></br>
@@ -167,7 +201,7 @@ tba
 
 - ***Take Mart And Springer***: Take a permanent Mart and a permanent Springer.
 - ***Clear A Gold Tile With A Single Fling***: Collect all gold gifts on a *Fanny Pack*'s gold tile shortly after leaving your spirit form.
-- ***Above The Beacons's Clouds****: Using your ability, reach a significant height above the level. The beacon's "clouds" are not always visible, so use your best judgement for a sufficient height.
+- ***Above The Beacon's Clouds***: Using your ability, reach a significant height above the level. The beacon's "clouds" are not always visible, so use your best judgement for a sufficient height.
 - ***Chance Curse***: Have an active curse relating to the Altar of Chance.</br>
 
 ### <ins>*Grappler Class*</ins>
@@ -186,14 +220,14 @@ tba
 
 ### <ins>*Prisoner Class*</ins>
 
-- ***Take Useless Upgrade***: Buy an upgrade that does nothing.
+- ***Take Useless Upgrade***: Buy an upgrade that does nothing. *(Upgrades left unrandomized from Randomize Lategame Upgrades do not count.)*
 - ***Take Bell And Springer***: Take a permanent Bell and a permanent Springer
 - ***Use Jump Pad***: scary !
 - ***Use Altar***: Activate any altar.</br>
 
 ### <ins>*Wanted Class*</ins>
 
-- ***Take Husk and ICBM***: Take a permanent Husk and a permanent ICBM        <--- hey fix this one in the apworld the "and" is supposed to be capitalized
+- ***Take Husk And ICBM***: Take a permanent Husk and a permanent ICBM
 - ***2 Medal Curses***: Have 2 curses gained from *Medal* active at the same time.
 - ***Survive Kolóna Encounter***: Remain alive after a Kolóna attack.
 - ***Bounce Tourist***: Without touching the ground, use all three of a jump pad, grapple point, and Tria orb.

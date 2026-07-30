@@ -28,8 +28,9 @@ from typing import Type, Any
 
 class ClassSelect(OptionSet):
     """
-    If you dont have or dont want some classes, you can disable them here. (Charger and Diver are forced to be included.)
-    Options are Prisoner, Wanted, Spirit, Grappler, Glider. They will be Excluded froom the APworld if they are placed in this list. Be careful since these are case sensitive!
+    Exclude specific classes from the randomizer (except Charger/Diver).
+    These are "Grappler", "Spirit", "Glider", "Prisoner", and "Wanted" (case sensitive).
+    Each class contains a significant amount of locations, so avoid removing too many without also removing items to compensate.
     """
     display_name = "Classes Excluded"
     valid_keys = frozenset([
