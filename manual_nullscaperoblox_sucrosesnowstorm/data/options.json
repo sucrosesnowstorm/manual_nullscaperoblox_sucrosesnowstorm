@@ -36,7 +36,7 @@
                 "By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later. Upgrades excluded by this option are written in italics in the Item Codex."
             ],
             "display_name": "Randomize Lategame Upgrades",
-			"default": 1,
+			"default": 0,
             "type": "Toggle"
         },
         "total blossom fragments": {

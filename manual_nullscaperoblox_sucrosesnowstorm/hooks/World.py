@@ -91,13 +91,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         6: "Diver Class",
     }
     short_name_map = {
-        "Prisoner Class": "Prisoner",
-        "Wanted Class": "Wanted",
-        "Charger Class": "Charger",
-        "Diver Class": "Diver",
-        "Spirit Class": "Spirit",
-        "Grappler Class": "Grappler",
-        "Glider Class": "Glider",
+        "Prisoner Class": "prisoner",
+        "Wanted Class": "wanted",
+        "Charger Class": "charger",
+        "Diver Class": "diver",
+        "Spirit Class": "spirit",
+        "Grappler Class": "grappler",
+        "Glider Class": "glider",
     }
 
     startClass = get_option_value(multiworld, player, "starting_class")
