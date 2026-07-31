@@ -29,16 +29,16 @@ from typing import Type, Any
 class ClassSelect(OptionSet):
     """
     Exclude specific classes from the randomizer (except Charger/Diver).
-    These are "Grappler", "Spirit", "Glider", "Prisoner", and "Wanted" (case sensitive).
+    These are "grappler", "spirit", "glider", "prisoner", and "wanted" (case sensitive).
     Each class contains a significant amount of locations, so avoid removing too many without also removing items to compensate.
     """
     display_name = "Classes Excluded"
     valid_keys = frozenset([
-        "Prisoner",
-        "Wanted",
-        "Spirit",
-        "Grappler",
-        "Glider"
+        "prisoner",
+        "wanted",
+        "spirit",
+        "grappler",
+        "glider"
     ])
     default = frozenset([])
 

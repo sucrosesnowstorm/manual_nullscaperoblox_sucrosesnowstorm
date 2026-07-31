@@ -9,7 +9,7 @@ if TYPE_CHECKING:
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
     excluded_classes = multiworld.worlds[player].options.class_select.value
-    class_names = ["Prisoner", "Wanted", "Charger", "Diver", "Spirit", "Grappler", "Glider"]
+    class_names = ["prisoner", "wanted", "charger", "diver", "spirit", "grappler", "glider"]
     if category_name in class_names:
         return category_name not in excluded_classes
     return None
