@@ -44,9 +44,9 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Randomize ROOTS*** (`randomize_roots`, default: `true`)
 > Include a ROOTS item for each class, which are a requirement for a class to goal. See [summary](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#gimme-a-quick-summary) and [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) for more info.
 
-- ***Classes Excluded*** (`classSelect`, default: none)
+- ***Classes Excluded*** (`class_select`, default: none)
 > Exclude specific classes from the randomizer (except Charger/Diver).
-> These are "`Grappler`", "`Spirit`", "`Glider`", "`Prisoner`", and "`Wanted`" (case sensitive).
+> These are "`grappler`", "`spirit`", "`glider`", "`prisoner`", and "`wanted`" (case sensitive).
 > Each class contains a significant amount of locations, so avoid removing too many without also removing items to compensate.
 
 
