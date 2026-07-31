@@ -17,13 +17,13 @@
                 "Choose which class the player starts with"
             ],
             "values": {
-                "prisoner":0,
-                "wanted":1,
-                "charger":2,
-                "glider":3,
-                "grappler":4,
-                "spirit":5,
-                "diver":6
+                "Prisoner":0,
+                "Wanted":1,
+                "Charger":2,
+                "Glider":3,
+                "Grappler":4,
+                "Spirit":5,
+                "Diver":6
             },
             "display_name": "Starting Class",
             "type": "Choice",
@@ -90,5 +90,8 @@
             "type": "Toggle",
             "default": 1
         }
+        
     }
+    
+
 }

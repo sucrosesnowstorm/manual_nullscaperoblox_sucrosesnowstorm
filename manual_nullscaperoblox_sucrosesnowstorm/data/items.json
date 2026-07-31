@@ -200,7 +200,6 @@
       "progression": true
     },
     {
-      "count": "5",
       "name": "Flesh Trap",
       "category": [
         "Traps"
@@ -208,7 +207,6 @@
       "trap": true
     },
     {
-      "count": "5",
       "name": "Oblivion Trap",
       "category": [
         "Traps"
@@ -216,7 +214,6 @@
       "trap": true
     },
     {
-      "count": "3",
       "name": "Prisoner Trap",
       "category": [
         "Traps"

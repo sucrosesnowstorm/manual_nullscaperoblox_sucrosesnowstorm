@@ -29,22 +29,22 @@ from typing import Type, Any
 class ClassSelect(OptionSet):
     """
     If you dont have or dont want some classes, you can disable them here. (Charger and Diver are forced to be included.)
-    Options are Prisoner, Wanted, Spirit, Grappler, Glider. They will be Excluded froom the APworld if they are placed in this list. Be careful since these are case sensitive!
+    Options are prisoner, wanted, spirit, grappler, glider. They will be Excluded froom the APworld if they are placed in this list. Be careful since these are case sensitive!
     """
     display_name = "Classes Excluded"
     valid_keys = frozenset([
-        "Prisoner",
-        "Wanted",
-        "Spirit",
-        "Grappler",
-        "Glider"
+        "prisoner",
+        "wanted",
+        "spirit",
+        "grappler",
+        "glider"
     ])
     default = frozenset([])
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     #Add the options to the options dict so that they are defined in the Options Creator
-    options["classSelect"] = ClassSelect
+    options["class_select"] = ClassSelect
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

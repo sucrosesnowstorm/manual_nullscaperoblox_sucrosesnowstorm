@@ -44,7 +44,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
     all_classes = {"Prisoner", "Wanted", "Charger", "Diver", "Spirit", "Grappler", "Glider"}
-    excluded = multiworld.worlds[player].options.classSelect.value
+    excluded = multiworld.worlds[player].options.class_select.value
 
     if all_classes.issubset(excluded):
         raise Exception("You need at least one class included in logic")
@@ -103,7 +103,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     startClass = get_option_value(multiworld, player, "starting_class")
     item_name = class_map.get(startClass)
 
-    excluded = multiworld.worlds[player].options.classSelect.value
+    excluded = multiworld.worlds[player].options.class_select.value
 
     # If the chosen starting class doesn't exist in the pool (excluded), fall back to a random valid class instead.
     existing_item = next((i for i in item_pool if i.name == item_name), None) if item_name else None
@@ -128,16 +128,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
-
-    # Used to dynamically change the amount of Progressive Ungate Levels in the item pool based on the goal type selected by the player.
-    #needed = get_option_value(multiworld, player, "goal type")
-    #max_needed = 7
-    #ungate_amount = max_needed - needed
-    #if ungate_amount < 0:
-    #    ungate_amount = 0  # The Other goals also require all 5 ungate levels, so if the calculation goes negative, set it to 0 to avoid removing any.
-    
-    #for i in range(ungate_amount):
-    #    itemNamesToRemove.append("Progressive Ungate Levels") #Adds the correct amount of Progressive Ungate Levels to the list of items to remove from the item pool, based on the goal type selected by the player.
 
     #Removes the Lower Difficulty Items if they are disabled from the pool. These are useful items, no need to change logic about it.
     if is_option_enabled(multiworld, player, "randomize_lower_difficulty"):
@@ -170,8 +160,11 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         fragments_to_remove = 40 - get_option_value(multiworld, player, "total_blossom_fragments")
         for _ in range(fragments_to_remove):
             itemNamesToRemove.append("FRAGMENT OF BLOSSOM")
-    # Because multiple copies of an item can exist, you need to add an item name
-    # to the list multiple times if you want to remove multiple copies of it.
+
+    if get_option_value(multiworld, player, "filler_traps") == 0:
+        itemNamesToRemove.append("Oblivion Trap")
+        itemNamesToRemove.append("Flesh Trap")
+        itemNamesToRemove.append("Prisoner Trap")
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)

@@ -8,7 +8,7 @@ if TYPE_CHECKING:
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
-    excluded_classes = multiworld.worlds[player].options.classSelect.value
+    excluded_classes = multiworld.worlds[player].options.class_select.value
     class_names = ["Prisoner", "Wanted", "Charger", "Diver", "Spirit", "Grappler", "Glider"]
     if category_name in class_names:
         return category_name not in excluded_classes
@@ -17,7 +17,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the item, False to disable it, or None to use the default behavior
 def before_is_item_enabled(multiworld: MultiWorld, player: int, item: dict[str, Any]) -> Optional[bool]:
-    excluded_items = multiworld.worlds[player].options.classSelect.value
+    excluded_items = multiworld.worlds[player].options.class_select.value
     #List of items that correspond to classes, and their corresponding class names; for removal purposes duh.
     class_item_map = {
         "Prisoner Class": "Prisoner",
