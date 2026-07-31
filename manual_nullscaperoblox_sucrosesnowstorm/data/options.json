@@ -4,7 +4,7 @@
     "core": {
         "_comment":{
             "display_name": "Goal Level",
-            "description": "What level you need to reach to win this APworld",
+            "description": "What level you need to reach to goal.",
             "values": {"Level 10": 0, "Level 15":  1, "Level 20": 2},
             "type": "Choice",
             "default": 1,
@@ -14,7 +14,7 @@
     "user": {
         "starting class":{
             "description": [
-                "Choose which class the player starts with"
+                "Choose which class the player starts with."
             ],
             "values": {
                 "Prisoner":0,
@@ -33,16 +33,17 @@
         },
         "randomize lategame upgrades": {  
             "description": [
-                "By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later."
+                "By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later. Upgrades excluded by this option are written in italics in the Item Codex."
             ],
             "display_name": "Randomize Lategame Upgrades",
+			"default": 1,
             "type": "Toggle"
         },
         "total blossom fragments": {
             "description": [
-                "How many Blossom Fragments are in the multiworld."
+                "How many FRAGMENT OF BLOSSOM are randomized."
             ],
-            "display_name": "Total Blossom Fragments",
+            "display_name": "Total FRAGMENT OF BLOSSOM",
             "type": "Range",
             "default": 30,
             "range_start": 0,
@@ -51,9 +52,9 @@
         },
         "blossom fragments required": {
             "description": [
-                "How many Blossom Fragments are required to goal. (Recommened to be 10 less than total)"
+                "How many FRAGMENT OF BLOSSOM are required to goal. (Recommened to be ~10 less than total)."
             ],
-            "display_name": "Blossom Fragments Required",
+            "display_name": "FRAGMENT OF BLOSSOM required",
             "type": "Range",
             "default": 20,
             "range_start": 0,
@@ -62,7 +63,7 @@
         },
         "goal":{
             "display_name": "Goal Type",
-            "description": "What do you need to do to win this APworld",
+            "description": "What do you need to do to win this APWorld, once meeting all other requirements.",
             "alias": {
                 "Reach Level 10": 1, 
                 "Reach Level 15": 2, 
@@ -75,18 +76,18 @@
         },
         "randomize roots": {
             "description": [
-                "Randomizes Each Classes' Roots, which are required for a class to goal"
+                "Include a ROOTS item for each class, which are a requirement for a class to goal. See summary and Item Codex for more info."
             ],
-            "display_name": "Randomize Roots",
+            "display_name": "Randomize ROOTS",
             "type": "Toggle",
             "default": 1,
             "group": "Goal Options"
         },
         "randomize lower difficulty": {
             "description": [
-                "Randomizes the Progressive Lower Difficulties. When enabled, the player starts on Extreme, and can lower difficuilty when items are"
+                "Adds 2 'Progressive Lower Difficulty's. When included, the player starts on Extreme, and can lower difficulty when the items are collected."
             ],
-            "display_name": "Randomize Progessive Lower Difficulty",
+            "display_name": "Randomize Difficulty Selection",
             "type": "Toggle",
             "default": 1
         }
