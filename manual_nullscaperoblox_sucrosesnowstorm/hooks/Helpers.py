@@ -9,9 +9,9 @@ if TYPE_CHECKING:
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
     excluded_classes = multiworld.worlds[player].options.class_select.value
-    class_names = ["Prisoner", "Wanted", "Charger", "Diver", "Spirit", "Grappler", "Glider"]
+    class_names = ["Prisoner", "Wanted", "Spirit", "Grappler", "Glider"]
     if category_name in class_names:
-        return category_name not in excluded_classes
+        return category_name.lower() not in excluded_classes
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
@@ -22,15 +22,11 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item: dict[str, 
     class_item_map = {
         "Prisoner Class": "prisoner",
         "Wanted Class": "wanted",
-        "Charger Class": "charger",
-        "Diver Class": "diver",
         "Spirit Class": "spirit",
         "Grappler Class": "grappler",
         "Glider Class": "glider",
         "ROOTS IN DEFIANCE": "prisoner",
         "ROOTS IN CERTAINTY": "wanted",
-        "ROOTS IN PERSISTENCE": "charger",
-        "ROOTS IN VERSATILITY": "diver",
         "ROOTS IN SELF-AWARENESS": "spirit",
         "ROOTS IN TRUST": "grappler",
         "ROOTS IN BRAVERY": "glider",
