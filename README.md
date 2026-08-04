@@ -1,13 +1,16 @@
 # Nullscape (ROBLOX) Manual APWorld
 ### **<ins>By StudMuffin and sucrosesnowstorm</ins>**
 
-Manual APWorld for Nullscape \[DOOM IN BLOOM]. Recommended to have most if not all classes unlocked.
+Manual APWorld for Nullscape \[DOOM IN BLOOM]. Recommended to have most if not all classes unlocked, designed for both solo *and* co-op.
+Programming by StudMuffin, Designed by sucrosesnowstorm (of whom also wrote this very readme).
 
-As of v1.0.0, traps are included by default and are non-customizable. This will be fixed in the future, but this is Manual so ignore it if you don't want to deal with em.
-ignore filler_traps, it's like a weird spirit haunting our apworld.
+1) [Summary](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#gimme-a-quick-summary)
+2) [Unique Options](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options)
+3) [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#item-codex)
+4) [Locations Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#locations-codex)
 
 
-</br></br>
+</br></br></br>
 
 
 ## "gimme a quick summary"
