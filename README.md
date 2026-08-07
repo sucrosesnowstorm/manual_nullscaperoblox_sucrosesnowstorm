@@ -212,7 +212,7 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Disable Jump Pad***: Grapple onto a jump pad enough that it can no longer be grappled to.
 - ***Grapple Point Combo***: Use two grapple points without touching the ground.
 - ***Seamine Grappler***: Grapple onto a seamine.
-- ***Take Flesh And Operator***: Take a permanent Mart and a permanent Operator. </br>
+- ***Take Flesh And Operator***: Take a permanent Flesh and a permanent Operator. </br>
 
 ### <ins>*Glider Class*</ins>
 
