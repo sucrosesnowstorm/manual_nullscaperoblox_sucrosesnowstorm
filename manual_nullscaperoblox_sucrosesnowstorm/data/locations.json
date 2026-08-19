@@ -973,6 +973,189 @@
         "Any"
       ],
       "requires": "|Progressive Ungate Levels:2|"
-    }
+    },
+	{
+	  "name": "Nullscape",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Void Explorer",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Mart",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Paradox Trip",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Seems you got Telefragged",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Baby Face",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Intermission - 1",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Intermission - 2",
+	  "category": [
+	    "OSTs",
+		"Vol1"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Intermission - 3",
+	  "category": [
+	    "OSTs",
+		"Vol1"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Intermission - 4",
+	  "category": [
+	    "OSTs",
+		"Vol1"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Intermission - 5",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Intermission - 6",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Line of Fire",
+	  "category": [
+	    "OSTs",
+		"Vol1"	
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Congratulations, you beat the Tutorial",
+	  "category": [
+	    "OSTs"	,
+		"Vol1"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Fear of Shadow",
+	  "category": [
+	    "OSTs",
+		"Vol1"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Fear Before Failure - 1",
+	  "category": [
+	    "OSTs",
+		"Vol1",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+	{
+	  "name": "Fear Before Failure - 2",
+	  "category": [
+	    "OSTs",
+		"Vol1",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	{
+	  "name": "Fear Before Failure - 3",
+	  "category": [
+	    "OSTs",
+		"Vol1",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+	{
+	  "name": "Inescapable",
+	  "category": [
+	    "OSTs",
+		"Vol1",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Conviction",
+	  "category": [
+	    "OSTs",
+		"Vol1",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Determination",
+	  "category": [
+	    "OSTs",
+		"Vol1",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "THIS WORLD WILL COLLAPSE",
+	  "category": [
+	    "OSTs",
+		"Vol1",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
   ]
 }
