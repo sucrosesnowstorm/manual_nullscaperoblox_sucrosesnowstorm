@@ -1157,5 +1157,617 @@
 	  ],
 	  "requires": "|Progressive Ungate Levels:4|"
 	},
+	{
+	  "name": "Your New Prison",
+	  "category": [
+	    "OSTs",
+		"Vol2"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Kenophobia",
+	  "category": [
+	    "OSTs",
+		"Vol2"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Dimension",
+	  "category": [
+	    "OSTs",
+		"Vol2"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "A Delightful New Death",
+	  "category": [
+	    "OSTs",
+		"Vol2"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Conga Line",
+	  "category": [
+	    "OSTs",
+		"Vol2"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Death Defiance",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Former Gardens",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Unforeseen Unforgiving - 1",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Unforeseen Unforgiving - 2",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Void Breaker",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "IMPERIAL ENIGMA",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Temporal Tenacity",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Choir of the Bells - 1",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Choir of the Bells - 2",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "DECAY (TRUE)",
+	  "category": [
+	    "OSTs",
+		"Vol2",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "FIND YOUR FLAME",
+	  "category": [
+	    "OSTs",
+		"Vol2"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Subspace Sequence",
+	  "category": [
+	    "OSTs",
+		"Vol2"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Voidbound",
+	  "category": [
+	    "OSTs",
+		"Vol3"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Checkmate",
+	  "category": [
+	    "OSTs",
+		"Vol3"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Domasp's Gift",
+	  "category": [
+	    "OSTs",
+		"Vol3"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Inter-Continental Ballistic Missile",
+	  "category": [
+	    "OSTs",
+		"Vol3"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Self Destruct",
+	  "category": [
+	    "OSTs",
+		"Vol3"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Disruption and Dissonance",
+	  "category": [
+	    "OSTs",
+		"Vol3"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Vein Blood",
+	  "category": [
+	    "OSTs",
+		"Vol3"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Monolith",
+	  "category": [
+	    "OSTs",
+		"Vol3"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Cognition",
+	  "category": [
+	    "OSTs",
+		"Vol3",
+		"OSTs-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Aerodynamics",
+	  "category": [
+	    "OSTs",
+		"Vol3",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Won't you hear my Symphony?",
+	  "category": [
+	    "OSTs",
+		"Vol3",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Event Horizon",
+	  "category": [
+	    "OSTs",
+		"Vol3",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "nil",
+	  "category": [
+	    "OSTs",
+		"Vol3",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "INSURMOUNTABLE ABYSS",
+	  "category": [
+	    "OSTs",
+		"Vol3",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "IT DOESN'T END HERE",
+	  "category": [
+	    "OSTs",
+		"Vol3",
+		"OSTs-15+",
+		"OSTs-30+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Lower Gravity",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Random Spawn",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Savory Ring",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Scattered Gifts",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Weaker Jump Pads",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Beacon Mirage",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+	{
+	  "name": "Bigger Tripmines",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "High Roller",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Jackpot",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "LAP 2",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "More Tripmines",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Tweaked Odds",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Fake Count",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Fragile Gifts",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Nothing?",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Jackpot",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Barotrauma",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+	{
+	  "name": "Minefield",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+	{
+	  "name": "More Ringing",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Mighty Gong",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Concussion",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Mart Infection",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Mart Slide",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Bigger Marts",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Closer Husk",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Further Husk",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Taller Husk",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Random Husk",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+	{
+	  "name": "Husk Express",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Conga Line",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Springloaded",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Resonating Shockwaves",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Ambush",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Accurate Telefragger",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Bloodier Meat",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Blighted Jump Pads",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Bigger Blast",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Scorched Earth",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Pacifier",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+	{
+	  "name": "Problem Child",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Shotgun",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Camouflage",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+	{
+	  "name": "Burning Bouquet",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Lost Embers",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+	{
+	  "name": "Blade Carousel",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+	{
+	  "name": "Deadly Melody",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	}
   ]
 }
