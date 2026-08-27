@@ -90,9 +90,51 @@
             "display_name": "Randomize Difficulty Selection",
             "type": "Toggle",
             "default": 1
+        },
+        "ostsanity": {
+            "description": [
+                "Makes each individual OST a location in the Multi-world."
+            ],
+            "display_name": "OSTsanity",
+            "type": "Toggle",
+            "default": 0,
+            "group": "Insanity Options"
+        },
+        "ostsanity_15_plus": {
+            "description": [
+                "Extends the OST locations to include OSTs found past level 15."
+            ],
+            "display_name": "OSTsanity-15+",
+            "type": "Toggle",
+            "default": 0,
+            "group": "Insanity Options"
+        },
+        "ostsanity_30_plus": {
+            "description": [
+                "Extends the OST locations to include OSTs found past level 30."
+            ],
+            "display_name": "OSTsanity-30+",
+            "type": "Toggle",
+            "default": 0,
+            "group": "Insanity Options"
+        },
+        "cursanity": {
+            "description": [
+                "Makes each individual Curse a location in the Multi-world."
+            ],
+            "display_name": "Cursanity",
+            "type": "Toggle",
+            "default": 0,
+            "group": "Insanity Options"
+        },
+        "curses_15_plus": {
+            "description": [
+                "Extends the Curses locations to include curses found past level 15."
+            ],
+            "display_name": "Cursanity-15+",
+            "type": "Toggle",
+            "default": 0,
+            "group": "Insanity Options"
         }
-        
     }
-    
-
 }

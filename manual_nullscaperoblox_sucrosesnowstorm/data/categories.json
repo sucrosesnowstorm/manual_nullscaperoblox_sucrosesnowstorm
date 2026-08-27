@@ -20,11 +20,22 @@
     "Diver Class Things": {
         "hidden": true
     },
+    "OSTs": {
+        "yaml_option": [
+            "ostsanity"
+        ]
+    },
 	"OSTs-15+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "ostsanity_15_plus"
+        ]
     },
 	"OSTs-30+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "ostsanity_30_plus"
+        ]
     },
 	"Vol1": {
         "hidden": true
@@ -35,4 +46,14 @@
 	"Vol3": {
         "hidden": true
     },
+    "Cursanity": {
+        "yaml_option": [
+            "cursanity"
+        ]
+    },
+    "Curses-15+": {
+        "yaml_option": [
+            "curses_15_plus"
+        ]
+    }
 }

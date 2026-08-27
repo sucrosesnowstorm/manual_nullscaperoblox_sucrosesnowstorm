@@ -63,13 +63,42 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
     # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
 
+    #Cursanity Options
+    options.type_hints["cursanity"].description = "Makes each individual Curse a location in the Multi-world."
+    options.type_hints["cursanity"].default = 0
+    options.type_hints["cursanity"].display_name = "Cursanity"
+    options.type_hints["curses_15_plus"].description = "Extends the Curses locations to include curses found past level 15."
+    options.type_hints["curses_15_plus"].default = 0
+    options.type_hints["curses_15_plus"].display_name = "Cursanity-15+"
+
+    #OSTsanity Options
+    options.type_hints["ostsanity"].description = "Makes each individual OST a location in the Multi-world."
+    options.type_hints["ostsanity"].default = 0
+    options.type_hints["ostsanity"].display_name = "OSTsanity"
+    options.type_hints["ostsanity_15_plus"].description = "Extends the OST locations to include OSTs found past level 15."
+    options.type_hints["ostsanity_15_plus"].default = 0
+    options.type_hints["ostsanity_15_plus"].display_name = "OSTsanity-15+"
+    options.type_hints["ostsanity_30_plus"].description = "Extends the OST locations to include OSTs found past level 30."
+    options.type_hints["ostsanity_30_plus"].default = 0
+    options.type_hints["ostsanity_30_plus"].display_name = "OSTsanity-30+"
+
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     groups["Class Options"].append(ClassSelect)
+
+    from ..Options import cursanity, curses_15_plus, ostsanity, ostsanity_15_plus, ostsanity_30_plus
+    groups["Insanity Options"] = [
+        cursanity,
+        curses_15_plus,
+        ostsanity,
+        ostsanity_15_plus,
+        ostsanity_30_plus,
+    ]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
+    groups.append(OptionGroup("Insanity Options", [ClassSelect]))
     return groups
