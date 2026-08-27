@@ -130,7 +130,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     itemNamesToRemove: list[str] = [] # List of item names
 
     #Removes the Lower Difficulty Items if they are disabled from the pool. These are useful items, no need to change logic about it.
-    if is_option_enabled(multiworld, player, "randomize_lower_difficulty"):
+    if not is_option_enabled(multiworld, player, "randomize_lower_difficulty"):
         itemNamesToRemove.append("Progressive Lower Difficulty")
         itemNamesToRemove.append("Progressive Lower Difficulty")
 
