@@ -1191,7 +1191,7 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "Conga Line",
+	  "name": "Conga Line [OST]",
 	  "category": [
 	    "OSTs",
 		"Vol2"
@@ -1500,13 +1500,6 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "Jackpot",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
 	  "name": "LAP 2",
 	  "category": [
 	    "Cursanity"
@@ -1650,7 +1643,7 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "Conga Line",
+	  "name": "Conga Line [Curse]",
 	  "category": [
 	    "Cursanity"
 	  ],
