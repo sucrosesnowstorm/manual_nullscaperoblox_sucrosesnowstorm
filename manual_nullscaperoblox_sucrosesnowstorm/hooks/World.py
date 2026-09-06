@@ -59,7 +59,36 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
 
-    # Add your code here to calculate which locations to remove
+    # --- OSTsanity ---
+    # 0 = Disabled, 1 = Levels <15 Only, 2 = Levels <30 Only, 3 = Full
+    ostsanity = get_option_value(multiworld, player, "osttanity")
+
+    if ostsanity == 0:
+        excluded_ost_categories = {"OSTs"}  # kills every OST location
+    elif ostsanity == 1:
+        excluded_ost_categories = {"OSTs-15+"}  # OSTs-30+ locations also carry OSTs-15+, so this covers both
+    elif ostsanity == 2:
+        excluded_ost_categories = {"OSTs-30+"}
+    else:
+        excluded_ost_categories = set()  # Full: nothing excluded
+
+    # --- Cursanity ---
+    # 0 = Disabled, 1 = Levels <15 Only, 2 = Full
+    cursanity = get_option_value(multiworld, player, "cursanity")
+
+    if cursanity == 0:
+        excluded_curse_categories = {"Cursanity"}
+    elif cursanity == 1:
+        excluded_curse_categories = {"Curses-15+"}
+    else:
+        excluded_curse_categories = set()  # Full: nothing excluded
+
+    excluded_categories = excluded_ost_categories | excluded_curse_categories
+
+    if excluded_categories:
+        for loc_name, loc_data in location_name_to_location.items():
+            if excluded_categories.intersection(loc_data.get("category", [])):
+                locationNamesToRemove.append(loc_name)
 
     for region in multiworld.regions:
         if region.player == player:

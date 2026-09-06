@@ -93,48 +93,32 @@
         },
         "ostsanity": {
             "description": [
-                "Makes each individual OST a location in the Multi-world."
+                "Makes each individual OST a location in the Multi-world, up to certain levels."
             ],
             "display_name": "OSTsanity",
-            "type": "Toggle",
+            "type": "Choice",
+            "values": {
+                "Disabled": 0,
+                "Levels <15 Only": 1,
+                "Levels <30 Only": 2,
+                "Full": 3
+            },
             "default": 0,
-            "group": "Insanity Options"
-        },
-        "ostsanity_15_plus": {
-            "description": [
-                "Extends the OST locations to include OSTs found past level 15."
-            ],
-            "display_name": "OSTsanity-15+",
-            "type": "Toggle",
-            "default": 0,
-            "group": "Insanity Options"
-        },
-        "ostsanity_30_plus": {
-            "description": [
-                "Extends the OST locations to include OSTs found past level 30."
-            ],
-            "display_name": "OSTsanity-30+",
-            "type": "Toggle",
-            "default": 0,
-            "group": "Insanity Options"
+            "group": "Sanity Options"
         },
         "cursanity": {
             "description": [
-                "Makes each individual Curse a location in the Multi-world."
+                "Makes each individual Curse a location in the Multi-world, up to certain levels."
             ],
             "display_name": "Cursanity",
-            "type": "Toggle",
+            "type": "Choice",
+            "values": {
+                "Disabled": 0,
+                "Levels <15 Only": 1,
+                "Full": 2
+            },
             "default": 0,
-            "group": "Insanity Options"
-        },
-        "curses_15_plus": {
-            "description": [
-                "Extends the Curses locations to include curses found past level 15."
-            ],
-            "display_name": "Cursanity-15+",
-            "type": "Toggle",
-            "default": 0,
-            "group": "Insanity Options"
+            "group": "Sanity Options"
         }
     }
 }
