@@ -93,7 +93,7 @@
         },
         "ostsanity": {
             "description": [
-                "Makes each individual OST a location in the Multi-world, up to certain levels."
+                "Includes a location for listening to each and every song in the soundtrack. (NOTE: Some songs in 'Full' only appear past Level 50. We STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.)"
             ],
             "display_name": "OSTsanity",
             "type": "Choice",
@@ -108,7 +108,7 @@
         },
         "cursanity": {
             "description": [
-                "Makes each individual Curse a location in the Multi-world, up to certain levels."
+                "Includes a location for selecting each and every curse (Does not include Greater Curses.)"
             ],
             "display_name": "Cursanity",
             "type": "Choice",

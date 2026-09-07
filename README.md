@@ -48,9 +48,16 @@ The goal is to reach a set "final level" with a class that you have its respecti
 > Include a ROOTS item for each class, which are a requirement for a class to goal. See [summary](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#gimme-a-quick-summary) and [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) for more info.
 
 - ***Classes Excluded*** (`class_select`, default: none)
-> Exclude specific classes from the randomizer (except Charger/Diver).
-> These are "`grappler`", "`spirit`", "`glider`", "`prisoner`", and "`wanted`" (case sensitive).
+> Exclude specific classes from the randomizer (except Charger/Diver).<br>
+> These are "`grappler`", "`spirit`", "`glider`", "`prisoner`", and "`wanted`" (case sensitive).<br>
 > Each class contains a significant amount of locations, so avoid removing too many without also removing items to compensate.
+
+- ***OSTsanity*** (`ostsanity`, default: `Disabled`, other choices: `Levels <15 Only`, `Levels <30 Only`, and `Full`)
+> Includes a location for listening to each and every song in the soundtrack.<br>
+> (NOTE: Some songs in 'Full' only appear past Level 50. *We STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.*)
+
+- ***Cursanity*** (`cursanity`, default: `Disabled`, other choices: `Levels <15 Only` and `Full`)
+> Includes a location for selecting each and every curse (Does not include Greater Curses.)
 
 
 </br></br>
@@ -233,4 +240,9 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Take Husk And ICBM***: Take a permanent Husk and a permanent ICBM
 - ***2 Medal Curses***: Have 2 curses gained from *Medal* active at the same time.
 - ***Survive Kolóna Encounter***: Remain alive after a Kolóna attack.
-- ***Bounce Tourist***: Without touching the ground, use all three of a jump pad, grapple point, and Tria orb.
+- ***Bounce Tourist***: Without touching the ground, use all three of a jump pad, grapple point, and Tria orb.</br>
+
+### <ins>*OSTs and Cursanity*</ins>
+
+- Any location in *OSTs* is checked upon listening to its respective song in-game. See the [Nullscape wiki](https://nullscape.wiki/Music) for specifics. Enabling "show current song" in the in-game settings is recommended.
+- Any location in *Cursanity* is checked upon taking its respective curse in a run. Remember that some non-Cursanity locations may overlap (e.g. Don't forget to check both "Lost Embers" and "Kolóna Curse" when taking *Lost Embers*.)
