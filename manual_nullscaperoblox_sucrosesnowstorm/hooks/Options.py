@@ -62,7 +62,6 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     #  Here's an example on how to add your aliases to the generated goal
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
     # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
-
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)
@@ -72,4 +71,5 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
+    groups.append(OptionGroup("Insanity Options", [ClassSelect]))
     return groups

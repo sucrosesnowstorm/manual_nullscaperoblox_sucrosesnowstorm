@@ -90,9 +90,35 @@
             "display_name": "Randomize Difficulty Selection",
             "type": "Toggle",
             "default": 1
+        },
+        "ostsanity": {
+            "description": [
+                "Includes a location for listening to each and every song in the soundtrack. (NOTE: Some songs in 'Full' only appear past Level 50. We STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.)"
+            ],
+            "display_name": "OSTsanity",
+            "type": "Choice",
+            "values": {
+                "Disabled": 0,
+                "Levels <15 Only": 1,
+                "Levels <30 Only": 2,
+                "Full": 3
+            },
+            "default": 0,
+            "group": "Sanity Options"
+        },
+        "cursanity": {
+            "description": [
+                "Includes a location for selecting each and every curse (Does not include Greater Curses.)"
+            ],
+            "display_name": "Cursanity",
+            "type": "Choice",
+            "values": {
+                "Disabled": 0,
+                "Levels <15 Only": 1,
+                "Full": 2
+            },
+            "default": 0,
+            "group": "Sanity Options"
         }
-        
     }
-    
-
 }
