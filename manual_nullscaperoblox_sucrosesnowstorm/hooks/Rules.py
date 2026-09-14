@@ -51,6 +51,57 @@ def rootsReq(world: World, state: CollectionState, player: int):
 
     return False
 
+def hasUpgrade(world: World, state: CollectionState, player: int, upgrade_name: str):
+    """Checks if the player has a specific upgrade item."""
+
+    upgrade_map = {
+        "Paycheck": ("Seed of Potential", 1),
+        "Business License": ("Seed of Potential", 2),
+        "Medal": ("Seed of Potential", 3),
+        "Fanny Pack": ("Seed of Potential", 4),
+        "Gift Magnet": ("Seed of Potential", 5),
+        "Gift Idol": ("Seed of Potential", 6),
+
+        "Adrenaline": ("Seed of Control", 1),
+        "Swiftness Rings": ("Seed of Control", 2),
+        "Double Jump": ("Seed of Control", 3),
+        "Grace Wings": ("Seed of Control", 4),
+        "Pocket Bell": ("Seed of Control", 5),
+        "Ice Skates": ("Seed of Control", 6),
+        "Advanced Gravity Coil": ("Seed of Control", 7),
+        "Sports Shoes": ("Seed of Control", 8),
+        "Matrix Tetrahedron": ("Seed of Control", 9),
+
+        "Better Jump Pads": ("Seed of Nullscape", 1),
+        "Grapple Points": ("Seed of Nullscape", 2),
+        "Tria Orbs": ("Seed of Nullscape", 3),
+        "More Altars": ("Seed of Nullscape", 4),
+        "Larger Grapple Points": ("Seed of Nullscape", 5),
+
+        "Helmet": ("Seed of Introspection", 1),
+        "Ninja Belt": ("Seed of Introspection", 2),
+        "Shark Tail": ("Seed of Introspection", 3),
+        "Miniature Hourglass": ("Seed of Introspection", 4),
+
+        "Radar": ("Seed of Omnipotence", 1),
+        "Radar Module: Enemies": ("Seed of Omnipotence", 2),
+        "Radar Module: Tripmines": ("Seed of Omnipotence", 3),
+        "Radar Module: Altars": ("Seed of Omnipotence", 4),
+        # Goodbye Player Module :P
+        "Radar Module: Instruments": ("Seed of Omnipotence", 5),
+
+        "Defuse Kit": ("Seed of Immortality", 1),
+        "Last Robloxian Standing": ("Seed of Immortality", 2),
+        "Subspacial Barrier": ("Seed of Immortality", 3),
+        "Shield": ("Seed of Immortality", 4),
+        "Panic Necklace": ("Seed of Immortality", 5),
+        "Drowned Aegis": ("Seed of Immortality", 6),
+    }
+
+    seed_name, tier = upgrade_map[upgrade_name]
+
+    return state.has(seed_name, player, tier)
+
 #def ungateGoalReq(world: World, state: CollectionState, player: int):
 #    """Changes the logic for the Ungate Levels Required based on the goal selected by the player"""
 #    goal_type = world.goal[player].value
