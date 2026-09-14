@@ -86,7 +86,7 @@
       "category": [
         "Any"
       ],
-      "requires": "|Progressive Ungate Levels:2| AND {hasUpgrade('Subspacial Barrier')}"
+      "requires": "|Progressive Ungate Levels:2| AND {hasUpgrade(Subspacial Barrier)}"
     },
     {
       "name": "Reach Level 5 [Charger]",
@@ -150,7 +150,7 @@
         "Charger",
         "Charger Class Things"
       ],
-      "requires": "|Charger Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Medal')}"
+      "requires": "|Charger Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Medal)}"
     },
     {
       "name": "Altar of Purgatory [Charger]",
@@ -198,7 +198,7 @@
         "Charger",
         "Charger Class Things"
       ],
-      "requires": "|Charger Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Grapple Points')}"
+      "requires": "|Charger Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Grapple Points)}"
     },
     {
       "name": "Ride Grindrail [Charger]",
@@ -278,7 +278,7 @@
         "Diver",
         "Diver Class Things"
       ],
-      "requires": "|Diver Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Medal')}"
+      "requires": "|Diver Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Medal)}"
     },
     {
       "name": "Altar of Purgatory [Diver]",
@@ -318,7 +318,7 @@
         "Diver",
         "Diver Class Things"
       ],
-      "requires": "|Diver Class| AND |Progressive Ungate Levels:2| AND {hasUpgrade('Ninja Belt')}"
+      "requires": "|Diver Class| AND |Progressive Ungate Levels:2| AND {hasUpgrade(Ninja Belt)}"
     },
     {
       "name": "Telefragger Curse [Diver]",
@@ -334,7 +334,7 @@
         "Diver",
         "Diver Class Things"
       ],
-      "requires": "|Diver Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Grapple Points')}"
+      "requires": "|Diver Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Grapple Points)}"
     },
     {
       "name": "Abilityless Level (Level 3+) [Diver]",
@@ -406,7 +406,7 @@
         "Spirit",
         "Spirit Class Things"
       ],
-      "requires": "|Spirit Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Medal')}"
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Medal)}"
     },
     {
       "name": "Altar of Purgatory [Spirit]",
@@ -446,7 +446,7 @@
         "Spirit",
         "Spirit Class Things"
       ],
-      "requires": "|Spirit Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Fanny Pack')}"
+      "requires": "|Spirit Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Fanny Pack)}"
     },
     {
       "name": "Above The Beacon's Clouds [Spirit]",
@@ -534,7 +534,7 @@
         "Grappler",
         "Grappler Class Things"
       ],
-      "requires": "|Grappler Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Medal')}"
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Medal)}"
     },
     {
       "name": "Altar of Purgatory [Grappler]",
@@ -574,7 +574,7 @@
         "Grappler",
         "Grappler Class Things"
       ],
-      "requires": "|Grappler Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Grapple Points')}"
+      "requires": "|Grappler Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Grapple Points)}"
     },
     {
       "name": "Seamine Grappler [Grappler]",
@@ -662,7 +662,7 @@
         "Glider",
         "Glider Class Things"
       ],
-      "requires": "|Glider Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Medal')}"
+      "requires": "|Glider Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Medal)}"
     },
     {
       "name": "Altar of Purgatory [Glider]",
@@ -710,7 +710,7 @@
         "Glider",
         "Glider Class Things"
       ],
-      "requires": "|Glider Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Grapple Points')}"
+      "requires": "|Glider Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Grapple Points)}"
     },
     {
       "name": "Survive Seamine Detonation [Glider]",
@@ -790,7 +790,7 @@
         "Prisoner",
         "Prisoner Class Things"
       ],
-      "requires": "|Prisoner Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Medal')}"
+      "requires": "|Prisoner Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Medal)}"
     },
     {
       "name": "Altar of Purgatory [Prisoner]",
@@ -814,7 +814,7 @@
         "Prisoner",
         "Prisoner Class Things"
       ],
-      "requires": "|Prisoner Class| AND (|Progressive Ungate Levels| AND ({hasUpgrade('Medal')} OR {hasUpgrade('Helmet')})) OR (|Progressive Ungate Levels:2| AND {hasUpgrade('Subspacial Barrier')})"
+      "requires": "|Prisoner Class| AND (|Progressive Ungate Levels| AND ({hasUpgrade(Medal)} OR {hasUpgrade(Helmet)})) OR (|Progressive Ungate Levels:2| AND {hasUpgrade(Subspacial Barrier)})"
     },
     {
       "name": "Take Bell And Springer [Prisoner]",
@@ -902,7 +902,7 @@
         "Wanted",
         "Wanted Class Things"
       ],
-      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Medal')}"
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Medal)}"
     },
     {
       "name": "Altar of Purgatory [Wanted]",
@@ -942,7 +942,7 @@
         "Wanted",
         "Wanted Class Things"
       ],
-      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Medal')}"
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Medal)}"
     },
     {
       "name": "Survive Kolóna Encounter [Wanted]",
@@ -958,7 +958,7 @@
         "Wanted",
         "Wanted Class Things"
       ],
-      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND {hasUpgrade('Tria Orbs')}"
+      "requires": "|Wanted Class| AND |Progressive Ungate Levels| AND {hasUpgrade(Tria Orbs)}"
     },
     {
       "name": "Seamine Curse",
