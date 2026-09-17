@@ -102,8 +102,7 @@ The goal is to reach a set "final level" with a class that you have its respecti
 > 2) Radar Module: Enemies
 > 3) Radar Module: Tripmines
 > 4) Radar Module: Altars
-> 5) Radar Module: Players
-> 6) *Radar Module: Instruments*
+> 5) *Radar Module: Instruments*
 - ***Seed of Immortality*** (Progression): Progressive Defense Upgrades
 > 1) Defuse Kit
 > 2) Last Robloxian Standing
