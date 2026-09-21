@@ -2,6 +2,7 @@
 from typing import Any
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState, Item
+from Options import OptionError
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -44,10 +45,17 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
     all_classes = {"Prisoner", "Wanted", "Charger", "Diver", "Spirit", "Grappler", "Glider"}
-    excluded = multiworld.worlds[player].options.class_select.value
+    excluded = multiworld.worlds[player].options.class_exclude.value
 
     if all_classes.issubset(excluded):
-        raise Exception("You need at least one class included in logic")
+        raise OptionError("You need at least one class included in logic")
+
+    if get_option_value(multiworld, player, "total_blossom_fragments") < get_option_value(multiworld, player, "required_blossom_fragments"):
+        multiworld.worlds[player].options.required_blossom_fragments.value = get_option_value(multiworld, player, "total_blossom_fragments")
+        logging.info("Required Blossom Fragments is greater than Total Blossom Fragments. Automatically adjusted Required to match Total.")
+
+    if len(excluded) > 3 and (not get_option_value(multiworld, player, "ostsanity") and not get_option_value(multiworld, player, "cursanity")):
+        raise OptionError(f"As it currently stands, You cannot exclude more than 3 classes, without any Sanity Options enabled. Either enable some Sanity Options, or include more classes")
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -134,7 +142,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     startClass = get_option_value(multiworld, player, "starting_class")
     item_name = class_map.get(startClass)
 
-    excluded = multiworld.worlds[player].options.class_select.value
+    excluded = multiworld.worlds[player].options.class_exclude.value
 
     # If the chosen starting class doesn't exist in the pool (excluded), fall back to a random valid class instead.
     existing_item = next((i for i in item_pool if i.name == item_name), None) if item_name else None

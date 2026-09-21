@@ -50,7 +50,7 @@
             "range_end": 40,
             "group": "Goal Options"
         },
-        "blossom fragments required": {
+        "required blossom fragments": {
             "description": [
                 "How many FRAGMENT OF BLOSSOM are required to goal. (Recommened to be ~10 less than total)."
             ],

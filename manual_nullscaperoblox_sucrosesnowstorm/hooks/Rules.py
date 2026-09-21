@@ -25,14 +25,14 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
 
 def blossomFragmentReq(world: World, state: CollectionState, player: int):
     """Has the player reached the required number of Blossom Fragments"""
-    required_fragments = get_option_value(world.multiworld, player, "blossom_fragments_required")
+    required_fragments = get_option_value(world.multiworld, player, "required_blossom_fragments")
     return state.has("FRAGMENT OF BLOSSOM", player, required_fragments)
 
 def rootsReq(world: World, state: CollectionState, player: int):
     """Does the player have the roots option enabled?"""
 
     #If the setting is on, roots are not neeeded to goal, disable the logic for them.
-    if not is_option_enabled(world.multiworld, player, "randomize roots"):
+    if not is_option_enabled(world.multiworld, player, "randomize_roots"):
         return True
     
     class_to_root = {
