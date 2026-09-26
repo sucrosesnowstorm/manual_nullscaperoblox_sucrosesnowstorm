@@ -25,7 +25,7 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
 
 def blossomFragmentReq(world: World, state: CollectionState, player: int):
     """Has the player reached the required number of Blossom Fragments"""
-    required_fragments = get_option_value(world.multiworld, player, "required_blossom_fragments")
+    required_fragments = get_option_value(world.multiworld, player, "blossom_fragments_required")
     return state.has("FRAGMENT OF BLOSSOM", player, required_fragments)
 
 def rootsReq(world: World, state: CollectionState, player: int):

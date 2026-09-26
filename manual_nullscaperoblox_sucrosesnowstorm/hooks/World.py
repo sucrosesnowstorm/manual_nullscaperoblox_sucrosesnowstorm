@@ -50,8 +50,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     if all_classes.issubset(excluded):
         raise OptionError("You need at least one class included in logic")
 
-    if get_option_value(multiworld, player, "total_blossom_fragments") < get_option_value(multiworld, player, "required_blossom_fragments"):
-        multiworld.worlds[player].options.required_blossom_fragments.value = get_option_value(multiworld, player, "total_blossom_fragments")
+    if get_option_value(multiworld, player, "blossom_fragments_total") < get_option_value(multiworld, player, "blossom_fragments_required"):
+        multiworld.worlds[player].options.blossom_fragments_required.value = get_option_value(multiworld, player, "blossom_fragments_total")
         logging.info("Required Blossom Fragments is greater than Total Blossom Fragments. Automatically adjusted Required to match Total.")
 
     if len(excluded) > 3 and (not get_option_value(multiworld, player, "ostsanity") and not get_option_value(multiworld, player, "cursanity")):
@@ -195,8 +195,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         for _ in range(3):
             itemNamesToRemove.append("Seed of Immortality")
 
-    if get_option_value(multiworld, player, "total_blossom_fragments") < 40:
-        fragments_to_remove = 40 - get_option_value(multiworld, player, "total_blossom_fragments")
+    if get_option_value(multiworld, player, "blossom_fragments_total") < 40:
+        fragments_to_remove = 40 - get_option_value(multiworld, player, "blossom_fragments_total")
         for _ in range(fragments_to_remove):
             itemNamesToRemove.append("FRAGMENT OF BLOSSOM")
 
