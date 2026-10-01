@@ -32,7 +32,7 @@ def rootsReq(world: World, state: CollectionState, player: int):
     """Does the player have the roots option enabled?"""
 
     #If the setting is on, roots are not neeeded to goal, disable the logic for them.
-    if not is_option_enabled(world.multiworld, player, "randomize roots"):
+    if not is_option_enabled(world.multiworld, player, "randomize_roots"):
         return True
     
     class_to_root = {

@@ -39,7 +39,7 @@
 			"default": 1,
             "type": "Toggle"
         },
-        "total blossom fragments": {
+        "blossom fragments total": {
             "description": [
                 "How many FRAGMENT OF BLOSSOM are randomized."
             ],
@@ -54,7 +54,7 @@
             "description": [
                 "How many FRAGMENT OF BLOSSOM are required to goal. (Recommened to be ~10 less than total)."
             ],
-            "display_name": "FRAGMENT OF BLOSSOM required",
+            "display_name": "Required FRAGMENT OF BLOSSOM ",
             "type": "Range",
             "default": 20,
             "range_start": 0,

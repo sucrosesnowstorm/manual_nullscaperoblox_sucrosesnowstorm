@@ -26,7 +26,7 @@ from typing import Type, Any
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
 
-class ClassSelect(OptionSet):
+class ClassExclude(OptionSet):
     """
     Exclude specific classes from the randomizer (except Charger/Diver).
     These are "grappler", "spirit", "glider", "prisoner", and "wanted" (case sensitive).
@@ -45,7 +45,7 @@ class ClassSelect(OptionSet):
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     #Add the options to the options dict so that they are defined in the Options Creator
-    options["class_select"] = ClassSelect
+    options["class_exclude"] = ClassExclude
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -67,9 +67,9 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
-    groups["Class Options"].append(ClassSelect)
+    groups["Class Options"].append(ClassExclude)
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
-    groups.append(OptionGroup("Insanity Options", [ClassSelect]))
+    groups.append(OptionGroup("Insanity Options", [ClassExclude]))
     return groups
