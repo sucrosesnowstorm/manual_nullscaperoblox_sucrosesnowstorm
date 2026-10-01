@@ -38,16 +38,16 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***goal*** (`goal`, default: `reach level 10`, other choices: `reach level 15` and `reach level 20`)
 > What do you need to do to win this APWorld, once meeting all other requirements.
 
-- ***Total FRAGMENT OF BLOSSOM*** (`total_blossom_fragments`, default: `30`, range of `0`-`40`)
+- ***Total FRAGMENT OF BLOSSOM*** (`blossom_fragments_total`, default: `30`, range of `0`-`40`)
 > How many [FRAGMENT OF BLOSSOM](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) are randomized.
 
-- ***FRAGMENT OF BLOSSOM required*** (`blossom_fragments_required`, default: `20`, range of `0`-`40`)
+- ***Required FRAGMENT OF BLOSSOM*** (`blossom_fragments_required`, default: `20`, range of `0`-`40`)
 > How many [FRAGMENT OF BLOSSOM](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) are required to goal. (Recommened to be ~10 less than total).
 
 - ***Randomize ROOTS*** (`randomize_roots`, default: `true`)
 > Include a ROOTS item for each class, which are a requirement for a class to goal. See [summary](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#gimme-a-quick-summary) and [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) for more info.
 
-- ***Classes Excluded*** (`class_select`, default: none)
+- ***Classes Excluded*** (`class_exclude`, default: none)
 > Exclude specific classes from the randomizer (except Charger/Diver).<br>
 > These are "`grappler`", "`spirit`", "`glider`", "`prisoner`", and "`wanted`" (case sensitive).<br>
 > Each class contains a significant amount of locations, so avoid removing too many without also removing items to compensate.
