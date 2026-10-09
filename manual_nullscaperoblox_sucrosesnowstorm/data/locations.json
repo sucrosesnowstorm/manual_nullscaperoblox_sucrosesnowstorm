@@ -814,7 +814,7 @@
         "Prisoner",
         "Prisoner Class Things"
       ],
-      "requires": "|Prisoner Class| AND (|Progressive Ungate Levels| AND ({hasUpgrade(Medal)} OR {hasUpgrade(Helmet)})) OR (|Progressive Ungate Levels:2| AND {hasUpgrade(Subspacial Barrier)})"
+      "requires": "|Prisoner Class| AND (|Progressive Ungate Levels| AND ({hasUpgrade(Double Jump)} OR {hasUpgrade(Helmet)})) OR (|Progressive Ungate Levels:2| AND {hasUpgrade(Subspacial Barrier)})"
     },
     {
       "name": "Take Bell And Springer [Prisoner]",
