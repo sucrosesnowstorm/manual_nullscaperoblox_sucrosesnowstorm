@@ -185,14 +185,18 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     # Removes The Level 15+ Upgrades if the option is disabled.
     if not is_option_enabled(multiworld, player, "randomize_lategame_upgrades"):
-        for _ in range(2):
+        for _ in range(3):
             itemNamesToRemove.append("Seed of Potential")       
-        for _ in range(2):
+        for _ in range(3):
             itemNamesToRemove.append("Seed of Control")
+        for _ in range(3):
+            itemNamesToRemove.append("Seed of Celerity")
+        for _ in range(2):
+            itemNamesToRemove.append("Seed of Nullscape")
         for _ in range(2):
             itemNamesToRemove.append("Seed of Introspection")
         itemNamesToRemove.append("Seed of Omnipotence")
-        for _ in range(3):
+        for _ in range(4):
             itemNamesToRemove.append("Seed of Immortality")
 
     if get_option_value(multiworld, player, "blossom_fragments_total") < 40:
