@@ -184,7 +184,7 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***3 Husk Curses***: Have 3 Husk curses active at the same time.
 - ***2 Tripmine Curses***: Have 2 Tripmine curses active at the same time. Duplicates of the same curse count as separate.
 - ***Greater Curse***: Have an active greater curse.
-- ***Fire***: Be afflicted with *Fire*. There are multiple sources, including *Scorched Earth* and *Incendiary Shrapnel* with ICBM
+- ***Burn***: Be afflicted with *Fire*. There are multiple sources, including *Scorched Earth* and *Incendiary Shrapnel* with ICBM
 - ***Become Concussed***: Be afflicted with *Concussion*. There are multiple sources, including the curse of the same name with Bell.
 - ***Escape With Spare Shield***: Enter the beacon while still having a shield for any reason.
 - ***Escape With Spare Subspacial Barrier***: Enter the beacon with a *Subspacial Barrier* that has yet to be used this level.
