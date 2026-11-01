@@ -74,29 +74,43 @@ The goal is to reach a set "final level" with a class that you have its respecti
 > 2) Business Liscense
 > 3) Medal
 > 4) Fanny Pack
-> 5) *Gift Magnet*
-> 6) *Gift Idol*
-- ***Seed of Control*** (Progression): Progressive Mobility Upgrades
+> 5) Altar Boons **<-!!- double check prices**
+> 6) Health Insurance
+> 7) *Gift Magnet*
+> 8) *Aggro Magnet + Debuff Magnet*
+> 9) *Gift Idol*
+- ***Seed of Control*** (Progression): Progressive Mobility Upgrades A
+> 1) Double Jump
+> 2) Grace Wings
+> 3) Pocket Bell
+> 4) Ice Skates
+> 5) *Matrix Tetrahedron*
+> 6) *Jet Boosters*
+> 7) *Quixotic Wing*
+- ***Seed of Celerity*** (Progression): Progressive Mobility Upgrades B
 > 1) Adrenaline
 > 2) Swiftness Rings
-> 3) Double Jump
-> 4) Grace Wings
-> 5) Pocket Bell
-> 6) Ice Skates
-> 7) Advanced Gravity Coil
-> 8) *Sport Shoes*
-> 9) *Matrix Tetrahedron*
+> 3) Spring Shoes
+> 4) Advanced Gravity Coil
+> 5) *Sport Shoes*
+> 6) *Fleeting Fate*
+> 7) *Transient Pennon*
 - ***Seed of Nullscape*** (Progression): Progressive World Upgrades
 > 1) Better Jump Pads
 > 2) Grapple Points
 > 3) Tria Orbs
-> 4) More Altars
-> 5) Larger Grapple Points
+> 4) Star Marts
+> 5) More Altars
+> 6) Birthday Pony ***<-!!- double check price vs more altars***
+> 7) Larger Grapple Points
+> 8) *Soul Tracers*
+> 9) *Magnified Levels*
 - ***Seed of Introspection*** (Progression): Progressive Class-Specific Upgrades
 > 1) Helmet
 > 2) Ninja Belt
-> 3) *Shark Tail*
-> 4) *Miniature Hourglass*
+> 3) Propeller Hat
+> 4) *Shark Tail*
+> 5) *Miniature Hourglass*
 - ***Seed of Omnipotence*** (Useful): Progressive Radar
 > 1) Radar
 > 2) Radar Module: Enemies
@@ -105,12 +119,13 @@ The goal is to reach a set "final level" with a class that you have its respecti
 > 5) *Radar Module: Instruments*
 - ***Seed of Immortality*** (Progression): Progressive Defense Upgrades
 > 1) Defuse Kit
-> 2) Last Robloxian Standing
+> 2) Final Stand
 > 3) Subspacial Barrier
 > 4) *Shield*
 > 5) *Panic Necklace*
-> 6) *Drowned Aegis*
-- ***Extra Upgrade Stack*** (Useful): You may purchase an extra stack of any Upgrade for each copy of this item you have. 4 copies. </br>
+> 6) *Shadow Cloak* ***<-!!- double check prices***
+> 7) *Drowned Aegis*
+- ***Extra Upgrade Stack*** (Useful): You may purchase an extra stack of any Upgrade for each copy of this item you have. 5 copies. </br>
 
 ### <ins>*Progression*</ins>
 

@@ -2,7 +2,7 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
   "data": [
     {
-      "count": "6",
+      "count": "9",
       "name": "Seed of Potential",
       "category": [
         "Upgrades"
@@ -10,7 +10,7 @@
       "progression": true
     },
     {
-      "count": "9",
+      "count": "7",
       "name": "Seed of Control",
       "category": [
         "Upgrades"
@@ -18,7 +18,15 @@
       "progression": true
     },
     {
-      "count": "5",
+      "count": "7",
+      "name": "Seed of Celerity",
+      "category": [
+        "Upgrades"
+      ],
+      "progression": true
+    },
+    {
+      "count": "9",
       "name": "Seed of Nullscape",
       "category": [
         "Upgrades"
@@ -26,7 +34,7 @@
       "progression": true
     },
     {
-      "count": "4",
+      "count": "5",
       "name": "Seed of Introspection",
       "category": [
         "Upgrades"
@@ -42,7 +50,7 @@
       "useful": true
     },
     {
-      "count": "6",
+      "count": "7",
       "name": "Seed of Immortality",
       "category": [
         "Upgrades"
@@ -221,12 +229,18 @@
       "trap": true
     },
     {
-      "count": "4",
+      "count": "5",
       "name": "Extra Upgrade Stack",
       "category": [
         "Upgrades"
       ],
       "useful": true
+    },
+    {
+      "count": 1,
+      "name": "SUPER nothing",
+      "category": [],
+      "filler": true
     }
   ]
 }
