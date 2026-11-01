@@ -1,7 +1,7 @@
 # Nullscape (ROBLOX) Manual APWorld
 ### **<ins>By StudMuffin and sucrosesnowstorm</ins>**
 
-Manual APWorld for Nullscape \[DOOM IN BLOOM]. Recommended to have most if not all classes unlocked, designed for both solo *and* co-op.
+Manual APWorld for Nullscape \[DELUSIONAL DESCENSION]. Recommended to have most if not all classes unlocked, designed for both solo *and* co-op.
 Programming by StudMuffin, Designed by sucrosesnowstorm (of whom also wrote this very readme).
 
 1) [Summary](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#gimme-a-quick-summary)
@@ -14,7 +14,7 @@ Programming by StudMuffin, Designed by sucrosesnowstorm (of whom also wrote this
 
 
 ## "gimme a quick summary"
-Players start with all classes (but one) locked, may not purchase any upgrades, and cannot access Level 5 and beyond until unlocking each as [items](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#progression). All Upgrades are spread into six sets of "[Seeds](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#upgrades)", which each are progressive unlocks for a certain *category* of Upgrade (e.g. the 3rd *Seed of Control* unlocks purchasing Double Jump).
+Players start with all classes (but one) locked, may not purchase any upgrades, and cannot access Level 5 and beyond until unlocking each as [items](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#progression). All Upgrades are spread into seven sets of "[Seeds](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#upgrades)", which each are progressive unlocks for a certain *category* of Upgrade (e.g. the 4th *Seed of Control* unlocks purchasing Ice Skates).
 The goal is to reach a set "final level" with a class that you have its respective "[ROOTS](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" item in (optional) and a prerequisite amount of "[*FRAGMENT OF BLOSSOM*](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" (also optional, usually 20 of 30 total).
 
 
@@ -179,13 +179,13 @@ The goal is to reach a set "final level" with a class that you have its respecti
 ### <ins>*Any Class*</ins>
 ###### Can be completed as any class.
 
-- ***Encounter Voidbound Enemy***: Be in the same level as a Voidbound Baby, Voidbound Operator, or Voidbound Guardian.
+- ***Encounter Voidbound Enemy***: Be in the same level as a Voidbound Baby, Voidbound Operator, Voidbound ICBM, or Voidbound Guardian.
 - ***Survive Voidbreaker Encounter***: Have a Voidbreaker attack you and still be alive when it disappears.
 - ***3 Husk Curses***: Have 3 Husk curses active at the same time.
 - ***2 Tripmine Curses***: Have 2 Tripmine curses active at the same time. Duplicates of the same curse count as separate.
 - ***Greater Curse***: Have an active greater curse.
-- ***Burn***: Be afflicted with *Burn*. This can be caused by ICBMs with *Scorched Earth* or through the chimneys of high-rise towers.
-- ***Become Concussed***: Be afflicted with *Concussion (effect)*. This can be caused by Bells with *Concussion (curse)* or Springers with *Concussion (curse)* and *Resonating Shockwaves*
+- ***Fire***: Be afflicted with *Fire*. There are multiple sources, including *Scorched Earth* and *Incendiary Shrapnel* with ICBM
+- ***Become Concussed***: Be afflicted with *Concussion*. There are multiple sources, including the curse of the same name with Bell.
 - ***Escape With Spare Shield***: Enter the beacon while still having a shield for any reason.
 - ***Escape With Spare Subspacial Barrier***: Enter the beacon with a *Subspacial Barrier* that has yet to be used this level.
 - ***Seamine Curse***: Have an active curse affecting seamines.
@@ -204,7 +204,7 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Medal Curse***: Using *Medal*, choose to take a Medal Curse.
 - ***Altar of Purgatory***: Activate an Altar of Purgatory.
 - ***Reach Level 13***: Enter the Level 13 intermission.
-- ***Overtuned***: Be afflicted with *Overtuned*. This can be caused by ringing a Bell 3 times in succession, or by a Springer with *Resonating Shockwaves*.
+- ***Overtuned***: Be afflicted with *Overtuned*. There are multiple sources, including ringing a Bell 3 times in succession.
 - ***Abilityless Level (Level 3+)***: Complete a level (past 2) without ever using your ability. *Prisoner* and *Wanted* class don't have this check.<br/>
 
 ### <ins>*Charger Class*</ins>
