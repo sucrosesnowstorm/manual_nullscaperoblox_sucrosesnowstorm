@@ -1191,7 +1191,7 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "Conga Line [OST]",
+	  "name": "Conga Line",
 	  "category": [
 	    "OSTs",
 		"Vol2"
@@ -1449,19 +1449,19 @@
 	  ],
 	  "requires": ""
 	},
-	{
-	  "name": "Random Spawn",
+  {
+	  "name": "Higher Gravity",
 	  "category": [
 	    "Cursanity"
 	  ],
 	  "requires": ""
 	},
 	{
-	  "name": "Savory Ring",
+	  "name": "Random Spawn",
 	  "category": [
 	    "Cursanity"
 	  ],
-	  "requires": "|Progressive Ungate Levels|"
+	  "requires": ""
 	},
 	{
 	  "name": "Scattered Gifts",
@@ -1477,13 +1477,12 @@
 	  ],
 	  "requires": ""
 	},
-	{
-	  "name": "Beacon Mirage",
+  {
+	  "name": "Savory Ring",
 	  "category": [
-	    "Cursanity",
-		"Curses-15+"
+	    "Cursanity"
 	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
+	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
 	  "name": "Bigger Tripmines",
@@ -1493,21 +1492,14 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "High Roller",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "LAP 2",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
 	  "name": "More Tripmines",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+  {
+	  "name": "High Roller",
 	  "category": [
 	    "Cursanity"
 	  ],
@@ -1521,7 +1513,7 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "Fake Count",
+	  "name": "Lap 2",
 	  "category": [
 	    "Cursanity"
 	  ],
@@ -1564,7 +1556,31 @@
 	  ],
 	  "requires": "|Progressive Ungate Levels:3|"
 	},
+  {
+	  "name": "Run",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
 	{
+	  "name": "Volatile Implosions",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+  {
+	  "name": "Beacon Mirage",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+  {
 	  "name": "More Ringing",
 	  "category": [
 	    "Cursanity"
@@ -1585,6 +1601,13 @@
 	  ],
 	  "requires": ""
 	},
+  {
+	  "name": "Concussive Blast",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
 	{
 	  "name": "Mart Infection",
 	  "category": [
@@ -1593,14 +1616,71 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "Mart Slide",
+	  "name": "Bigger Marts",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+  {
+	  "name": "Red Marts",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+  {
+	  "name": "Beacon Imp",
+	  "category": [
+	    "Cursanity",
+    "Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+  {
+	  "name": "Problem Child",
 	  "category": [
 	    "Cursanity"
 	  ],
 	  "requires": "|Progressive Ungate Levels|"
 	},
-	{
-	  "name": "Bigger Marts",
+  {
+	  "name": "Big Baby",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+  {
+	  "name": "Baby Steps",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+  {
+	  "name": "Scorched Earth",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": ""
+	},
+  {
+	  "name": "Bigger Blast",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+  {
+	  "name": "Magic Missile",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+  {
+	  "name": "Incendiary Shrapnel",
 	  "category": [
 	    "Cursanity"
 	  ],
@@ -1628,14 +1708,6 @@
 	  "requires": ""
 	},
 	{
-	  "name": "Random Husk",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-	{
 	  "name": "Husk Express",
 	  "category": [
 	    "Cursanity"
@@ -1643,21 +1715,57 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "Conga Line [Curse]",
+	  "name": "Resonating Shockwaves",
 	  "category": [
 	    "Cursanity"
 	  ],
 	  "requires": "|Progressive Ungate Levels|"
 	},
-	{
+  {
 	  "name": "Springloaded",
 	  "category": [
 	    "Cursanity"
 	  ],
 	  "requires": "|Progressive Ungate Levels|"
 	},
+  {
+	  "name": "Seahorse",
+	  "category": [
+	    "Cursanity",
+    "Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+  {
+	  "name": "Horse Skipping",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+  {
+	  "name": "Bloodier Meat",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
 	{
-	  "name": "Resonating Shockwaves",
+	  "name": "Airborne Flesh",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+  {
+	  "name": "Camouflage",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels|"
+	},
+  {
+	  "name": "Shotgun",
 	  "category": [
 	    "Cursanity"
 	  ],
@@ -1678,70 +1786,36 @@
 	  "requires": "|Progressive Ungate Levels|"
 	},
 	{
-	  "name": "Bloodier Meat",
+	  "name": "Lost Embers",
 	  "category": [
 	    "Cursanity"
 	  ],
-	  "requires": "|Progressive Ungate Levels|"
+	  "requires": "|Progressive Ungate Levels:2|"
 	},
-	{
-	  "name": "Blighted Jump Pads",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Bigger Blast",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Scorched Earth",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Pacifier",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Problem Child",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Shotgun",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Camouflage",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
+  {
 	  "name": "Burning Bouquet",
 	  "category": [
 	    "Cursanity"
 	  ],
 	  "requires": "|Progressive Ungate Levels:2|"
 	},
-	{
-	  "name": "Lost Embers",
+  {
+	  "name": "Angry Bird",
+	  "category": [
+	    "Cursanity"
+	  ],
+	  "requires": "|Progressive Ungate Levels:2|"
+	},
+  {
+	  "name": "Smart Little Bird",
+	  "category": [
+	    "Cursanity",
+    "Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+  {
+	  "name": "Stronger Wings",
 	  "category": [
 	    "Cursanity"
 	  ],
@@ -1755,6 +1829,14 @@
 	  ],
 	  "requires": "|Progressive Ungate Levels:3|"
 	},
+  {
+	  "name": "Corrupted Blades",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
 	{
 	  "name": "Deadly Melody",
 	  "category": [
@@ -1762,6 +1844,70 @@
 		"Curses-15+"
 	  ],
 	  "requires": "|Progressive Ungate Levels:3|"
+	},
+  {
+	  "name": "Jumping Instruments",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+  {
+	  "name": "Encore",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+  {
+	  "name": "Alluring Arrangement",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:3|"
+	},
+  {
+	  "name": "Leo",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+  {
+	  "name": "Sagittarius",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+  {
+	  "name": "Blueprint: Cross Beams",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+  {
+	  "name": "Blueprint: Supersonic Lasers",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
+	},
+  {
+	  "name": "Blueprint: Efficient Coolant",
+	  "category": [
+	    "Cursanity",
+		"Curses-15+"
+	  ],
+	  "requires": "|Progressive Ungate Levels:4|"
 	}
   ]
 }
