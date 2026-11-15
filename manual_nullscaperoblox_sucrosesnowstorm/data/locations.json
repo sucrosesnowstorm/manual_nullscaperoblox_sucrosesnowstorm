@@ -116,7 +116,7 @@
       "category": [
         "Any"
       ],
-      "requires": "|Progressive Ungate Levels|"
+      "requires": "(  |Progressive Ungate Levels| AND {hasUpgrade(Medal)}  )  OR  |Progressive Ungate Levels:2|"
     },
     {
       "name": "Wish For Avarice/Wish For Life",
