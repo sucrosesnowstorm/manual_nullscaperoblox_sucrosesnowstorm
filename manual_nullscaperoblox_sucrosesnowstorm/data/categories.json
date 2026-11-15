@@ -28,5 +28,8 @@
     },
 	"Vol3": {
         "hidden": true
+    },
+	"celequests": {
+        "hidden": true
     }
 }
