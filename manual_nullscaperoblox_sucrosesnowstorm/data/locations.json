@@ -1176,14 +1176,6 @@
       "requires": "{canFightCelestial()}"
     },
     {
-      "name": "Defeat The Celestial",
-      "category": [
-        "BLOOM",
-        "celequests"
-      ],
-      "requires": "{canFightCelestial()}"
-    },
-    {
       "name": "Nullscape",
       "category": [
         "OSTs",
