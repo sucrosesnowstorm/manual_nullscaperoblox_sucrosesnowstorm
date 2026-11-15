@@ -26,6 +26,22 @@
       "requires": "{blossomFragmentReq()} AND |Progressive Ungate Levels:3| AND {rootsReq()}"
     },
     {
+      "victory": true,
+      "name": "GET EVEN.",
+      "category": [
+        "BLOOM"
+      ],
+      "requires": "{blossomFragmentReq()} AND {rootsReq()} AND {canFightCelestial()}"
+    },
+    {
+      "victory": true,
+      "name": "BLOSSOM.",
+      "category": [
+        "BLOOM"
+      ],
+      "requires": "{blossomFragmentReq()} AND {rootsReq()} AND |Progressive Ungate Levels:4|"
+    },
+    {
       "name": "Encounter Voidbound Enemy",
       "category": [
         "Any"
@@ -61,6 +77,13 @@
       "requires": "|Progressive Ungate Levels:2|"
     },
     {
+      "name": "Delusional",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
       "name": "Burn",
       "category": [
         "Any"
@@ -87,6 +110,48 @@
         "Any"
       ],
       "requires": "|Progressive Ungate Levels:2| AND {hasUpgrade(Subspacial Barrier)}"
+    },
+    {
+      "name": "5 Temporary Curses",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Wish For Avarice/Wish For Life",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Wish For Safety",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Wish For Prosperity",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Wish For Infinity",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Wish For Luck",
+      "category": [
+        "Any"
+      ],
+      "requires": "|Progressive Ungate Levels|"
     },
     {
       "name": "Reach Level 5 [Charger]",
@@ -170,6 +235,14 @@
     },
     {
       "name": "Overtuned [Charger]",
+      "category": [
+        "Charger",
+        "Charger Class Things"
+      ],
+      "requires": "|Charger Class| "
+    },
+    {
+      "name": "Dance With Mart [Charger]",
       "category": [
         "Charger",
         "Charger Class Things"
@@ -305,6 +378,14 @@
       "requires": "|Diver Class| "
     },
     {
+      "name": "Dance With Mart [Diver]",
+      "category": [
+        "Diver",
+        "Diver Class Things"
+      ],
+      "requires": "|Diver Class| "
+    },
+    {
       "name": "Dive Into Bell [Diver]",
       "category": [
         "Diver",
@@ -426,6 +507,14 @@
     },
     {
       "name": "Overtuned [Spirit]",
+      "category": [
+        "Spirit",
+        "Spirit Class Things"
+      ],
+      "requires": "|Spirit Class| "
+    },
+    {
+      "name": "Dance With Mart [Spirit]",
       "category": [
         "Spirit",
         "Spirit Class Things"
@@ -561,7 +650,15 @@
       "requires": "|Grappler Class| "
     },
     {
-      "name": "Disable Jump Pad [Grappler]",
+      "name": "Dance With Mart [Grappler]",
+      "category": [
+        "Grappler",
+        "Grappler Class Things"
+      ],
+      "requires": "|Grappler Class| "
+    },
+    {
+      "name": "Underneath The Beacon [Grappler]",
       "category": [
         "Grappler",
         "Grappler Class Things"
@@ -689,6 +786,14 @@
       "requires": "|Glider Class| "
     },
     {
+      "name": "Dance With Mart [Glider]",
+      "category": [
+        "Glider",
+        "Glider Class Things"
+      ],
+      "requires": "|Glider Class| "
+    },
+    {
       "name": "Flesh Curse [Glider]",
       "category": [
         "Glider",
@@ -809,12 +914,20 @@
       "requires": "|Prisoner Class|"
     },
     {
+      "name": "Dance With Mart [Prisoner]",
+      "category": [
+        "Prisoner",
+        "Prisoner Class Things"
+      ],
+      "requires": "|Prisoner Class|"
+    },
+    {
       "name": "Take Useless Upgrade [Prisoner]",
       "category": [
         "Prisoner",
         "Prisoner Class Things"
       ],
-      "requires": "|Prisoner Class| AND (|Progressive Ungate Levels| AND ({hasUpgrade(Helmet)} OR {hasUpgrade(Double Jump)})) OR (|Progressive Ungate Levels:2| AND {hasUpgrade(Subspacial Barrier)})"
+      "requires": "|Prisoner Class| AND (   (  |Progressive Ungate Levels| AND ( {hasUpgrade(Helmet)} OR {hasUpgrade(Double Jump)} OR {hasUpgrade(Advanced Gravity Coil)} )  )  OR  (  |Progressive Ungate Levels:2| AND {hasUpgrade(Subspacial Barrier)}  )  OR  (  |Progressive Ungate Levels:3| AND {hasUpgrade(Gift Magnet)}  )   )"
     },
     {
       "name": "Take Bell And Springer [Prisoner]",
@@ -929,6 +1042,14 @@
       "requires": "|Wanted Class| "
     },
     {
+      "name": "Dance With Mart [Wanted]",
+      "category": [
+        "Wanted",
+        "Wanted Class Things"
+      ],
+      "requires": "|Wanted Class| "
+    },
+    {
       "name": "Take Husk And ICBM [Wanted]",
       "category": [
         "Wanted",
@@ -974,940 +1095,1020 @@
       ],
       "requires": "|Progressive Ungate Levels:2|"
     },
-	{
-	  "name": "Nullscape",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Void Explorer",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Mart",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Paradox Trip",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Seems you got Telefragged",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Baby Face",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Intermission - 1",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Intermission - 2",
-	  "category": [
-	    "OSTs",
-		"Vol1"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Intermission - 3",
-	  "category": [
-	    "OSTs",
-		"Vol1"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Intermission - 4",
-	  "category": [
-	    "OSTs",
-		"Vol1"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Intermission - 5",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Intermission - 6",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Line of Fire",
-	  "category": [
-	    "OSTs",
-		"Vol1"	
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Congratulations, you beat the Tutorial",
-	  "category": [
-	    "OSTs"	,
-		"Vol1"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Fear of Shadow",
-	  "category": [
-	    "OSTs",
-		"Vol1"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Fear Before Failure - 1",
-	  "category": [
-	    "OSTs",
-		"Vol1",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-	{
-	  "name": "Fear Before Failure - 2",
-	  "category": [
-	    "OSTs",
-		"Vol1",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-	{
-	  "name": "Fear Before Failure - 3",
-	  "category": [
-	    "OSTs",
-		"Vol1",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-	{
-	  "name": "Inescapable",
-	  "category": [
-	    "OSTs",
-		"Vol1",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Conviction",
-	  "category": [
-	    "OSTs",
-		"Vol1",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Determination",
-	  "category": [
-	    "OSTs",
-		"Vol1",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "THIS WORLD WILL COLLAPSE",
-	  "category": [
-	    "OSTs",
-		"Vol1",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Your New Prison",
-	  "category": [
-	    "OSTs",
-		"Vol2"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Kenophobia",
-	  "category": [
-	    "OSTs",
-		"Vol2"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Dimension",
-	  "category": [
-	    "OSTs",
-		"Vol2"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "A Delightful New Death",
-	  "category": [
-	    "OSTs",
-		"Vol2"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Conga Line",
-	  "category": [
-	    "OSTs",
-		"Vol2"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Death Defiance",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Former Gardens",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Unforeseen Unforgiving - 1",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Unforeseen Unforgiving - 2",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Void Breaker",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "IMPERIAL ENIGMA",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Temporal Tenacity",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Choir of the Bells - 1",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Choir of the Bells - 2",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "DECAY (TRUE)",
-	  "category": [
-	    "OSTs",
-		"Vol2",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "FIND YOUR FLAME",
-	  "category": [
-	    "OSTs",
-		"Vol2"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Subspace Sequence",
-	  "category": [
-	    "OSTs",
-		"Vol2"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Voidbound",
-	  "category": [
-	    "OSTs",
-		"Vol3"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Checkmate",
-	  "category": [
-	    "OSTs",
-		"Vol3"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Domasp's Gift",
-	  "category": [
-	    "OSTs",
-		"Vol3"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Inter-Continental Ballistic Missile",
-	  "category": [
-	    "OSTs",
-		"Vol3"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Self Destruct",
-	  "category": [
-	    "OSTs",
-		"Vol3"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Disruption and Dissonance",
-	  "category": [
-	    "OSTs",
-		"Vol3"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Vein Blood",
-	  "category": [
-	    "OSTs",
-		"Vol3"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Monolith",
-	  "category": [
-	    "OSTs",
-		"Vol3"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Cognition",
-	  "category": [
-	    "OSTs",
-		"Vol3",
-		"OSTs-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Aerodynamics",
-	  "category": [
-	    "OSTs",
-		"Vol3",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Won't you hear my Symphony?",
-	  "category": [
-	    "OSTs",
-		"Vol3",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Event Horizon",
-	  "category": [
-	    "OSTs",
-		"Vol3",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "nil",
-	  "category": [
-	    "OSTs",
-		"Vol3",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "INSURMOUNTABLE ABYSS",
-	  "category": [
-	    "OSTs",
-		"Vol3",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "IT DOESN'T END HERE",
-	  "category": [
-	    "OSTs",
-		"Vol3",
-		"OSTs-15+",
-		"OSTs-30+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-	{
-	  "name": "Lower Gravity",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-  {
-	  "name": "Higher Gravity",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Random Spawn",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Scattered Gifts",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Weaker Jump Pads",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-  {
-	  "name": "Savory Ring",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Bigger Tripmines",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "More Tripmines",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "High Roller",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Tweaked Odds",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Lap 2",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Fragile Gifts",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Nothing?",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Jackpot",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Barotrauma",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-	{
-	  "name": "Minefield",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Run",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-	{
-	  "name": "Volatile Implosions",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Beacon Mirage",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-  {
-	  "name": "More Ringing",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Mighty Gong",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Concussion",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-  {
-	  "name": "Concussive Blast",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Mart Infection",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Bigger Marts",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-  {
-	  "name": "Red Marts",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-  {
-	  "name": "Beacon Imp",
-	  "category": [
-	    "Cursanity",
-    "Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Problem Child",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Big Baby",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-  {
-	  "name": "Baby Steps",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Scorched Earth",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-  {
-	  "name": "Bigger Blast",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Magic Missile",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Incendiary Shrapnel",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Closer Husk",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Further Husk",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Taller Husk",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": ""
-	},
-	{
-	  "name": "Husk Express",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Resonating Shockwaves",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Springloaded",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Seahorse",
-	  "category": [
-	    "Cursanity",
-    "Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Horse Skipping",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Bloodier Meat",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Airborne Flesh",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Camouflage",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-  {
-	  "name": "Shotgun",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Ambush",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Accurate Telefragger",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels|"
-	},
-	{
-	  "name": "Lost Embers",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-  {
-	  "name": "Burning Bouquet",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-  {
-	  "name": "Angry Bird",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-  {
-	  "name": "Smart Little Bird",
-	  "category": [
-	    "Cursanity",
-    "Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Stronger Wings",
-	  "category": [
-	    "Cursanity"
-	  ],
-	  "requires": "|Progressive Ungate Levels:2|"
-	},
-	{
-	  "name": "Blade Carousel",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Corrupted Blades",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-	{
-	  "name": "Deadly Melody",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Jumping Instruments",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Encore",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Alluring Arrangement",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:3|"
-	},
-  {
-	  "name": "Leo",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-  {
-	  "name": "Sagittarius",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-  {
-	  "name": "Blueprint: Cross Beams",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-  {
-	  "name": "Blueprint: Supersonic Lasers",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	},
-  {
-	  "name": "Blueprint: Efficient Coolant",
-	  "category": [
-	    "Cursanity",
-		"Curses-15+"
-	  ],
-	  "requires": "|Progressive Ungate Levels:4|"
-	}
+    {
+      "name": "Eye Of The Cutter",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Seamine Boost",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "High-Five The Celestial",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Frankly I Feel Like You Should ALWAYS Be Panicking Here But I Suppose This Will Have To Be Good Enough",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Shoot The Moon",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Pierce The Void",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Abilityless BITTER",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Abilityless FUTILE",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Abilityless CEASE",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Defeat The Celestial",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Nullscape",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Void Explorer",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Mart",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Paradox Trip",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Seems you got Telefragged",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Baby Face",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Intermission - 1",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Intermission - 2",
+      "category": [
+        "OSTs",
+      "Vol1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Intermission - 3",
+      "category": [
+        "OSTs",
+      "Vol1"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Intermission - 4",
+      "category": [
+        "OSTs",
+      "Vol1"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Intermission - 5",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Intermission - 6",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Line of Fire",
+      "category": [
+        "OSTs",
+      "Vol1"	
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Congratulations, you beat the Tutorial",
+      "category": [
+        "OSTs"	,
+      "Vol1"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Fear of Shadow",
+      "category": [
+        "OSTs",
+      "Vol1"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Fear Before Failure - 1",
+      "category": [
+        "OSTs",
+      "Vol1",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Fear Before Failure - 2",
+      "category": [
+        "OSTs",
+      "Vol1",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Fear Before Failure - 3",
+      "category": [
+        "OSTs",
+      "Vol1",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Inescapable",
+      "category": [
+        "OSTs",
+      "Vol1",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Conviction",
+      "category": [
+        "OSTs",
+      "Vol1",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Determination",
+      "category": [
+        "OSTs",
+      "Vol1",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "THIS WORLD WILL COLLAPSE",
+      "category": [
+        "OSTs",
+      "Vol1",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Your New Prison",
+      "category": [
+        "OSTs",
+      "Vol2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Kenophobia",
+      "category": [
+        "OSTs",
+      "Vol2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Dimension",
+      "category": [
+        "OSTs",
+      "Vol2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "A Delightful New Death",
+      "category": [
+        "OSTs",
+      "Vol2"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Conga Line",
+      "category": [
+        "OSTs",
+      "Vol2"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Death Defiance",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Former Gardens",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Unforeseen Unforgiving - 1",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Unforeseen Unforgiving - 2",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Void Breaker",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "IMPERIAL ENIGMA",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Temporal Tenacity",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Choir of the Bells - 1",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Choir of the Bells - 2",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "DECAY (TRUE)",
+      "category": [
+        "OSTs",
+      "Vol2",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "FIND YOUR FLAME",
+      "category": [
+        "OSTs",
+      "Vol2"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Subspace Sequence",
+      "category": [
+        "OSTs",
+      "Vol2"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Voidbound",
+      "category": [
+        "OSTs",
+      "Vol3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Checkmate",
+      "category": [
+        "OSTs",
+      "Vol3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Domasp's Gift",
+      "category": [
+        "OSTs",
+      "Vol3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Inter-Continental Ballistic Missile",
+      "category": [
+        "OSTs",
+      "Vol3"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Self Destruct",
+      "category": [
+        "OSTs",
+      "Vol3"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Disruption and Dissonance",
+      "category": [
+        "OSTs",
+      "Vol3"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Vein Blood",
+      "category": [
+        "OSTs",
+      "Vol3"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Monolith",
+      "category": [
+        "OSTs",
+      "Vol3"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Cognition",
+      "category": [
+        "OSTs",
+      "Vol3",
+      "OSTs-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Aerodynamics",
+      "category": [
+        "OSTs",
+      "Vol3",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Won't you hear my Symphony?",
+      "category": [
+        "OSTs",
+      "Vol3",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Event Horizon",
+      "category": [
+        "OSTs",
+      "Vol3",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "nil",
+      "category": [
+        "OSTs",
+      "Vol3",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "INSURMOUNTABLE ABYSS",
+      "category": [
+        "OSTs",
+      "Vol3",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "IT DOESN'T END HERE",
+      "category": [
+        "OSTs",
+      "Vol3",
+      "OSTs-15+",
+      "OSTs-30+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Lower Gravity",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Higher Gravity",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Random Spawn",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Scattered Gifts",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Weaker Jump Pads",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Savory Ring",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Bigger Tripmines",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "More Tripmines",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "High Roller",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Tweaked Odds",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Lap 2",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Fragile Gifts",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Nothing?",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Jackpot",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Barotrauma",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Minefield",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Run",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Volatile Implosions",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Beacon Mirage",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "More Ringing",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Mighty Gong",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Concussion",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Concussive Blast",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Mart Infection",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Bigger Marts",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Red Marts",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Beacon Imp",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Problem Child",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Big Baby",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Baby Steps",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Scorched Earth",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bigger Blast",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Magic Missile",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Incendiary Shrapnel",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Closer Husk",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Further Husk",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Taller Husk",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Husk Express",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Resonating Shockwaves",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Springloaded",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Seahorse",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Horse Skipping",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Bloodier Meat",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Airborne Flesh",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Camouflage",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Shotgun",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Ambush",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Accurate Telefragger",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels|"
+    },
+    {
+      "name": "Lost Embers",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Burning Bouquet",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Angry Bird",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Smart Little Bird",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Stronger Wings",
+      "category": [
+        "Cursanity"
+      ],
+      "requires": "|Progressive Ungate Levels:2|"
+    },
+    {
+      "name": "Blade Carousel",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Corrupted Blades",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Deadly Melody",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Jumping Instruments",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Encore",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Alluring Arrangement",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:3|"
+    },
+    {
+      "name": "Leo",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Sagittarius",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Blueprint: Cross Beams",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Blueprint: Supersonic Lasers",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    },
+    {
+      "name": "Blueprint: Efficient Coolant",
+      "category": [
+        "Cursanity",
+      "Curses-15+"
+      ],
+      "requires": "|Progressive Ungate Levels:4|"
+    }
   ]
 }

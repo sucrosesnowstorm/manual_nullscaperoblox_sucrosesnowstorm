@@ -28,6 +28,11 @@ def blossomFragmentReq(world: World, state: CollectionState, player: int):
     required_fragments = get_option_value(world.multiworld, player, "blossom_fragments_required")
     return state.has("FRAGMENT OF BLOSSOM", player, required_fragments)
 
+# TODO make more complex logic for this. probably want options controlling various requirements. 
+def canFightCelestial(world: World, state: CollectionState, player: int):
+    """Can the player access the Celestial fight"""
+    return blossomFragmentReq()
+
 def rootsReq(world: World, state: CollectionState, player: int):
     """Does the player have the roots option enabled?"""
 
@@ -59,8 +64,8 @@ def hasUpgrade(world: World, state: CollectionState, player: int, upgrade_name: 
         "Business License": ("Seed of Potential", 2),
         "Medal": ("Seed of Potential", 3),
         "Fanny Pack": ("Seed of Potential", 4),
-        "Altar Boons": ("Seed of Potential", 5),
-        "Health Insurance": ("Seed of Potential", 6),
+        "Health Insurance": ("Seed of Potential", 5),
+        "Altar Boons": ("Seed of Potential", 6),
         "Gift Magnet": ("Seed of Potential", 7),
         "Aggro Magnet": ("Seed of Potential", 8),
         "Debuff Magnet": ("Seed of Potential", 8),
@@ -86,8 +91,8 @@ def hasUpgrade(world: World, state: CollectionState, player: int, upgrade_name: 
         "Grapple Points": ("Seed of Nullscape", 2),
         "Tria Orbs": ("Seed of Nullscape", 3),
         "Star Marts": ("Seed of Nullscape", 4),
-        "More Altars": ("Seed of Nullscape", 5),
-        "Birthday Pony": ("Seed of Nullscape", 6),
+        "Birthday Pony": ("Seed of Nullscape", 5),
+        "More Altars": ("Seed of Nullscape", 6),
         "Larger Grapple Points": ("Seed of Nullscape", 7),
         "Soul Tracers": ("Seed of Nullscape", 8),
         "Magnified Levels": ("Seed of Nullscape", 9),

@@ -74,8 +74,8 @@ The goal is to reach a set "final level" with a class that you have its respecti
 > 2) Business Liscense
 > 3) Medal
 > 4) Fanny Pack
-> 5) Altar Boons **<-!!- double check prices**
-> 6) Health Insurance
+> 5) Health Insurance
+> 6) Altar Boons
 > 7) *Gift Magnet*
 > 8) *Aggro Magnet + Debuff Magnet*
 > 9) *Gift Idol*
@@ -100,8 +100,8 @@ The goal is to reach a set "final level" with a class that you have its respecti
 > 2) Grapple Points
 > 3) Tria Orbs
 > 4) Star Marts
-> 5) More Altars
-> 6) Birthday Pony ***<-!!- double check price vs more altars***
+> 5) Birthday Pony
+> 6) More Altars
 > 7) Larger Grapple Points
 > 8) *Soul Tracers*
 > 9) *Magnified Levels*
@@ -123,7 +123,7 @@ The goal is to reach a set "final level" with a class that you have its respecti
 > 3) Subspacial Barrier
 > 4) *Shield*
 > 5) *Panic Necklace*
-> 6) *Shadow Cloak* ***<-!!- double check prices***
+> 6) *Shadow Cloak*
 > 7) *Drowned Aegis*
 - ***Extra Upgrade Stack*** (Useful): You may purchase an extra stack of any Upgrade for each copy of this item you have. 5 copies. </br>
 
@@ -184,12 +184,19 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***3 Husk Curses***: Have 3 Husk curses active at the same time.
 - ***2 Tripmine Curses***: Have 2 Tripmine curses active at the same time. Duplicates of the same curse count as separate.
 - ***Greater Curse***: Have an active greater curse.
+- ***Delusional***: Have an active delusion.
 - ***Burn***: Be afflicted with *Fire*. There are multiple sources, including *Scorched Earth* and *Incendiary Shrapnel* with ICBM
 - ***Become Concussed***: Be afflicted with *Concussion*. There are multiple sources, including the curse of the same name with Bell.
 - ***Escape With Spare Shield***: Enter the beacon while still having a shield for any reason.
 - ***Escape With Spare Subspacial Barrier***: Enter the beacon with a *Subspacial Barrier* that has yet to be used this level.
 - ***Seamine Curse***: Have an active curse affecting seamines.
-- ***Kolóna Curse***: Have an active Kolóna curse.</br>
+- ***Kolóna Curse***: Have an active Kolóna curse.
+- ***Wish For Avarice/Wish For Life***: Use an Altar of Wishes to activate an Altar of Purgatory with no downside.
+- ***Wish For Safety***: Use an Altar of Wishes to activate an Altar of Protection with no downside.
+- ***Wish For Prosperity***: Use an Altar of Wishes to activate an Altar of Curses with no downside.
+- ***Wish For Infinity***: Use an Altar of Wishes to activate an Altar of Reroll with no downside.
+- ***Wish For Luck***: Consume a wish (from Altar of Wishes) activating an Altar of Chance.
+- ***5 Temporary Curses***: Have 5 active temporary curses.</br>
 
 ### <ins>*Each Class*</ins>
 ###### Exists as identical quests that must be checked as each class individually.
@@ -205,6 +212,7 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Altar of Purgatory***: Activate an Altar of Purgatory.
 - ***Reach Level 13***: Enter the Level 13 intermission.
 - ***Overtuned***: Be afflicted with *Overtuned*. There are multiple sources, including ringing a Bell 3 times in succession.
+- ***Dance With Mart***: Emote near a Mart, causing it to dance.
 - ***Abilityless Level (Level 3+)***: Complete a level (past 2) without ever using your ability. *Prisoner* and *Wanted* class don't have this check.<br/>
 
 ### <ins>*Charger Class*</ins>
@@ -230,7 +238,7 @@ The goal is to reach a set "final level" with a class that you have its respecti
 
 ### <ins>*Grappler Class*</ins>
 
-- ***Disable Jump Pad***: Grapple onto a jump pad enough that it can no longer be grappled to.
+- ***Underneath The Beacon***: Swing underneath the Beacon's platform without falling into the void.
 - ***Grapple Point Combo***: Use two grapple points without touching the ground.
 - ***Seamine Grappler***: Grapple onto a seamine.
 - ***Take Flesh And Operator***: Take a permanent Flesh and a permanent Operator. </br>
@@ -255,6 +263,20 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***2 Medal Curses***: Have 2 curses gained from *Medal* active at the same time.
 - ***Survive Kolóna Encounter***: Remain alive after a Kolóna attack.
 - ***Bounce Tourist***: Without touching the ground, use all three of a jump pad, grapple point, and Tria orb.</br>
+
+### <ins>*BLOOM*</ins>
+###### Quests exclusive to the Celestial fight (practice or otherwise). Can be completed as any class.
+
+- ***Eye Of The Cutter***: Dodge a cutter attack by waiting in the center.
+- ***Seamine Boost***: Launch a great distance/height from a seamine's explosion knockback.
+- ***High-Five The Celestial***: Get close enough to the Celestial such that it would be reasonable to consider yourself touching her.
+- ***Frankly I Feel Like You Should ALWAYS Be Panicking Here But I Suppose This Will Have To Be Good Enough***: Collect a Star Mart or trigger Panic Necklace.
+- ***Shoot The Moon***: Cause the Celestial to aim a DEATH IN BLOOM attack directly upward.
+- ***Pierce The Void***: Cause the Celestial to aim a DEATH IN BLOOM attack directly downward.
+- ***Abilityless BITTER***: Dodge a BITTER attack (or similar) without using your ability.
+- ***Abilityless FUTILE***: Dodge a FUTILE attack (or similar) without using your ability.
+- ***Abilityless CEASE***: Dodge a CEASE attack without using your ability.
+- ***GET EVEN.*** / ***Defeat The Celestial***: Defeat the Celestial.</br>
 
 ### <ins>*OSTs and Cursanity*</ins>
 
