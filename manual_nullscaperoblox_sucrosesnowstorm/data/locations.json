@@ -42,6 +42,14 @@
       "requires": "{blossomFragmentReq()} AND {rootsReq()} AND |Progressive Ungate Levels:4|"
     },
     {
+      "name": "Defeat The Celestial",
+      "category": [
+        "BLOOM",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
       "name": "Encounter Voidbound Enemy",
       "category": [
         "Any"

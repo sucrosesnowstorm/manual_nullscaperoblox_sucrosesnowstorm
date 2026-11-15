@@ -100,6 +100,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             if excluded_categories.intersection(loc_data.get("category", [])):
                 locationNamesToRemove.append(loc_name)
 
+    if get_option_value(multiworld, player, "goal") == 4 or get_option_value(multiworld, player, "goal") == 5:  # Celestial goal. Remove the base Location
+        locationNamesToRemove.append("Defeat The Celestial")
+
     for region in multiworld.regions:
         if region.player == player:
             for location in list(region.locations):
@@ -198,6 +201,12 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         itemNamesToRemove.append("Seed of Omnipotence")
         for _ in range(4):
             itemNamesToRemove.append("Seed of Immortality")
+
+    if get_option_value(multiworld, player, "randomize_fast_track") == 0:
+        for _ in range(2):
+            itemNamesToRemove.append("Progressive Fast Track")
+    elif get_option_value(multiworld, player, "randomize_fast_track") == 1:
+        itemNamesToRemove.append("Progressive Fast Track")
 
     if get_option_value(multiworld, player, "blossom_fragments_total") < 40:
         fragments_to_remove = 40 - get_option_value(multiworld, player, "blossom_fragments_total")

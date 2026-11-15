@@ -3,9 +3,9 @@
     "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
     "core": {
         "_comment":{
-            "display_name": "Goal Level",
-            "description": "What level you need to reach to goal.",
-            "values": {"Level 10": 0, "Level 15":  1, "Level 20": 2},
+            "display_name": "Goal Type",
+            "description": "What is required to goal the game. Celestial is the hardest goal, requiring the player to reach level 35 and complete the pylons. Celestial (Through Practice) is a easier goal, allowing the player to goal through the Celestial Practice option.",
+            "values": {"Level 10": 0, "Level 15":  1, "Level 20": 2, "Celestial (Through Practice)": 3, "Celestial": 4},
             "type": "Choice",
             "default": 1,
             "hidden": false
@@ -89,6 +89,64 @@
             ],
             "display_name": "Randomize Difficulty Selection",
             "type": "Toggle",
+            "default": 1
+        },
+        "celestial quests": {
+            "description": [
+                "Adds Celestial Quests, which are an extra set of locations the player can enable. See summary for more info."
+            ],
+            "display_name": "Celestial Quests",
+            "type": "Toggle",
+            "default": 1,
+            "group": "Celestial Options"
+        },
+        "allow celestial practice": {
+            "description": [
+                "Allows the player to complete Celestial Quests through the Celestial Practice. With this off, you need to reach The Celestial through the Pylons at level 35+. Not for the faint of heart"
+            ],
+            "display_name": "Allow Celestial Practice",
+            "type": "Toggle",
+            "default": 1,
+            "group": "Celestial Options"
+        },
+        "celestial practice requires FRAGMENTs": {
+            "description": [
+                "Requires the player to have collected the required amount of FRAGMENT OF BLOSSOM before they can access Celestial Practice."
+            ],
+            "display_name": "Celestial Practice Requires FRAGMENTs",
+            "type": "toggle",
+            "default": 0,
+            "group": "Celestial Options"
+        },
+        "celestial practice requires ungates": {
+            "description": [
+                "Requires the player to have collected all 'Progressive Ungate Levels' before they can access Celestial Practice."
+            ],
+            "display_name": "Celestial Practice Requires Ungates",
+            "type": "toggle",
+            "default": 0,
+            "group": "Celestial Options"
+        },
+        "celestial practice requires roots": {
+            "description": [
+                "Requires the player to have collected a matching class and ROOT item before they can access Celestial Practice. (Does nothing when randomize roots is off.)"
+            ],
+            "display_name": "Celestial Practice Requires Useable ROOTS",
+            "type": "toggle",
+            "default": 0,
+            "group": "Celestial Options"
+        },
+        "randomize fast track": {
+            "description": [
+                "Adds 'Progressive Fast Track' item(s). When included, the player start on normal runs, and can play Fast Track when one item is collected. All option includes Fast Track+"
+            ],
+            "display_name": "Randomize Fast Track",
+            "type": "Choice",
+            "values": {
+                "None": 0,
+                "Fast Track Only": 1,
+                "All": 2
+            },
             "default": 1
         },
         "ostsanity": {

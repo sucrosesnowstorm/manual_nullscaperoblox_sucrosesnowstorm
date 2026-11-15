@@ -23,15 +23,28 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
             return True
     return False
 
+
+
 def blossomFragmentReq(world: World, state: CollectionState, player: int):
     """Has the player reached the required number of Blossom Fragments"""
     required_fragments = get_option_value(world.multiworld, player, "blossom_fragments_required")
     return state.has("FRAGMENT OF BLOSSOM", player, required_fragments)
 
-# TODO make more complex logic for this. probably want options controlling various requirements. 
+# I tink this is to-done
 def canFightCelestial(world: World, state: CollectionState, player: int):
     """Can the player access the Celestial fight"""
-    return blossomFragmentReq()
+    frag = is_option_enabled(world.multiworld, player, "celestial_practice_requires_fragments")
+    required_fragments = get_option_value(world.multiworld, player, "blossom_fragments_required")
+    ungate = is_option_enabled(world.multiworld, player, "celestial_practice_requires_ungate")
+    root = is_option_enabled(world.multiworld, player, "celestial_practice_requires_roots")
+    if frag:
+        check1 = state.has("FRAGMENT OF BLOSSOM", player, required_fragments)
+    if ungate:
+        check2 = state.has("Progressive Ungate Levels", player, 4)
+    if root:
+        check3 = rootsReq(world, state, player)
+
+    return True if (not frag or check1) and (not ungate or check2) and (not root or check3) else False
 
 def rootsReq(world: World, state: CollectionState, player: int):
     """Does the player have the roots option enabled?"""
