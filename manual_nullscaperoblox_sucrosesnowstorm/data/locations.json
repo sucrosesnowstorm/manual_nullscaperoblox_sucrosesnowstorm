@@ -42,14 +42,6 @@
       "requires": "{blossomFragmentReq()} AND {rootsReq()} AND |Progressive Ungate Levels:4|"
     },
     {
-      "name": "Defeat The Celestial",
-      "category": [
-        "BLOOM",
-        "celequests"
-      ],
-      "requires": "{canFightCelestial()}"
-    },
-    {
       "name": "Encounter Voidbound Enemy",
       "category": [
         "Any"
@@ -1106,7 +1098,7 @@
     {
       "name": "Eye Of The Cutter",
       "category": [
-        "BLOOM",
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"
@@ -1114,7 +1106,7 @@
     {
       "name": "Seamine Boost",
       "category": [
-        "BLOOM",
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"
@@ -1122,7 +1114,7 @@
     {
       "name": "High-Five The Celestial",
       "category": [
-        "BLOOM",
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"
@@ -1130,7 +1122,7 @@
     {
       "name": "Frankly I Feel Like You Should ALWAYS Be Panicking Here But I Suppose This Will Have To Be Good Enough",
       "category": [
-        "BLOOM",
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"
@@ -1138,7 +1130,7 @@
     {
       "name": "Shoot The Moon",
       "category": [
-        "BLOOM",
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"
@@ -1146,7 +1138,7 @@
     {
       "name": "Pierce The Void",
       "category": [
-        "BLOOM",
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"
@@ -1154,7 +1146,7 @@
     {
       "name": "Abilityless BITTER",
       "category": [
-        "BLOOM",
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"
@@ -1162,7 +1154,7 @@
     {
       "name": "Abilityless FUTILE",
       "category": [
-        "BLOOM",
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"
@@ -1170,7 +1162,15 @@
     {
       "name": "Abilityless CEASE",
       "category": [
-        "BLOOM",
+        "Celestial",
+        "celequests"
+      ],
+      "requires": "{canFightCelestial()}"
+    },
+    {
+      "name": "Defeat The Celestial",
+      "category": [
+        "Celestial",
         "celequests"
       ],
       "requires": "{canFightCelestial()}"

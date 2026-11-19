@@ -15,7 +15,7 @@ Programming by StudMuffin, Designed by sucrosesnowstorm (of whom also wrote this
 
 ## "gimme a quick summary"
 Players start with all classes (but one) locked, may not purchase any upgrades, and cannot access Level 5 and beyond until unlocking each as [items](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#progression). All Upgrades are spread into seven sets of "[Seeds](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#upgrades)", which each are progressive unlocks for a certain *category* of Upgrade (e.g. the 4th *Seed of Control* unlocks purchasing Ice Skates).
-The goal is to reach a set "final level" with a class that you have its respective "[ROOTS](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" item in (optional) and a prerequisite amount of "[*FRAGMENT OF BLOSSOM*](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" (also optional, usually 20 of 30 total).
+The goal is to reach a set "final level" (or defeat the Celestial) with a class that you have its respective "[ROOTS](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" item in (optional) and a prerequisite amount of "[*FRAGMENT OF BLOSSOM*](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom)" (also optional, usually 20 of 30 total).
 
 
 
@@ -35,8 +35,8 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Starting Class*** (`starting_class`, default: `prisoner`, other choices: `wanted`, `charger`, `glider`, `grappler`, `spirit`, and `diver`)
 > Choose which class the player starts with.
 
-- ***goal*** (`goal`, default: `reach level 10`, other choices: `reach level 15` and `reach level 20`)
-> What do you need to do to win this APWorld, once meeting all other requirements.
+- ***goal*** (`goal`, default: `reach level 10`, other choices: `reach level 15`, `reach level 20`, `celestial (through practice)`, and `celestial`)
+> What is required to goal the game, once meeting all other requirements. (We STRONGLY discourage playing with Celestial proper as your goal.)
 
 - ***Total FRAGMENT OF BLOSSOM*** (`blossom_fragments_total`, default: `30`, range of `0`-`40`)
 > How many [FRAGMENT OF BLOSSOM](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) are randomized.
@@ -47,10 +47,28 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Randomize ROOTS*** (`randomize_roots`, default: `true`)
 > Include a ROOTS item for each class, which are a requirement for a class to goal. See [summary](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#gimme-a-quick-summary) and [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) for more info.
 
+- ***Randomize Fast Track*** (`randomize_fast_track`, default: `false`)
+> Adds 'Progressive Fast Track' item(s). 'Fast Track Only' adds one copy, 'All' adds two. See [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#progression) for more info.
+
 - ***Classes Excluded*** (`class_exclude`, default: none)
 > Exclude specific classes from the randomizer (except Charger/Diver).<br>
 > These are "`grappler`", "`spirit`", "`glider`", "`prisoner`", and "`wanted`" (case sensitive).<br>
 > Each class contains a significant amount of locations, so avoid removing too many without also removing items to compensate.
+
+- ***Celestial Quests*** (`celestial_quests`, default `false`)
+> Adds locations to the Celestial fight (through practice or otherwise). See [Locations Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#celestial) for more info.
+
+- ***Allow Celestial Pratice*** (`allow_celestial_practice`, default `true`)
+> When disabled, Celestial quests must be completed in a non-Practice run. We STRONGLY recommend playing with this enabled.
+
+- ***Celestial Practice Requires FRAGMENTs*** (`celestial_practice_requires_FRAGMENTs`, default `false`)
+> Requires the player to have collected the *Required FRAGMENT OF BLOSSOM* before they can access Celestial Practice.
+
+- ***Celestial Practice Requires Ungates*** (`celestial_practice_requires_ungates`, default `false`)
+> Requires the player to logically be able to reach a level Celestial can be fought in before they can access Celestial Practice.
+
+- ***Celestial Practice Requires ROOTS*** (`celestial_practice_requires_roots`, default `false`)
+> Requires the player to have collected a matching class and ROOTS item before they can access Celestial Practice. (Does nothing when Randomize ROOTS is disabled.)
 
 - ***OSTsanity*** (`ostsanity`, default: `Disabled`, other choices: `Levels <15 Only`, `Levels <30 Only`, and `Full`)
 > Includes a location for listening to each and every song in the soundtrack.<br>
@@ -137,6 +155,9 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Progressive Lower Difficulty*** (Progression): Unlock difficulties lower than Extreme. [Can be excluded](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options) to allow play on any difficulty.
 > 1) Standard Difficulty
 > 2) Casual Difficulty </br>
+- ***Progressive Fast Track*** (Useful): Unlock Fast Track. [Excluded by default.](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#yaml-options)
+> 1) Fast Track
+> 2) *Fast Track+*
 
 ### <ins>*Class Unlocks*</ins>
 
@@ -264,7 +285,7 @@ The goal is to reach a set "final level" with a class that you have its respecti
 - ***Survive Kolóna Encounter***: Remain alive after a Kolóna attack.
 - ***Bounce Tourist***: Without touching the ground, use all three of a jump pad, grapple point, and Tria orb.</br>
 
-### <ins>*BLOOM*</ins>
+### <ins>*Celestial*</ins>
 ###### Quests exclusive to the Celestial fight (practice or otherwise). Can be completed as any class.
 
 - ***Eye Of The Cutter***: Dodge a cutter attack by waiting in the center.

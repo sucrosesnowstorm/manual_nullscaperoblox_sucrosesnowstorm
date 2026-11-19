@@ -47,7 +47,7 @@ def canFightCelestial(world: World, state: CollectionState, player: int):
     return True if (not frag or check1) and (not ungate or check2) and (not root or check3) else False
 
 def rootsReq(world: World, state: CollectionState, player: int):
-    """Does the player have the roots option enabled?"""
+    """Does the player have the roots option enabled? If so, do they have a valid class unlock and roots pair?"""
 
     #If the setting is on, roots are not neeeded to goal, disable the logic for them.
     if not is_option_enabled(world.multiworld, player, "randomize_roots"):

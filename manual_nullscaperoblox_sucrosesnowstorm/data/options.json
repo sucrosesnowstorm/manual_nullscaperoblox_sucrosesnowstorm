@@ -4,7 +4,7 @@
     "core": {
         "_comment":{
             "display_name": "Goal Type",
-            "description": "What is required to goal the game. Celestial is the hardest goal, requiring the player to reach level 35 and complete the pylons. Celestial (Through Practice) is a easier goal, allowing the player to goal through the Celestial Practice option.",
+            "description": "What is required to goal the game, once meeting all other requirements. We STRONGLY discourage playing with Celestial proper as your goal.",
             "values": {"Level 10": 0, "Level 15":  1, "Level 20": 2, "Celestial (Through Practice)": 3, "Celestial": 4},
             "type": "Choice",
             "default": 1,
@@ -93,16 +93,16 @@
         },
         "celestial quests": {
             "description": [
-                "Adds Celestial Quests, which are an extra set of locations the player can enable. See summary for more info."
+                "Adds locations to the Celestial fight (through practice or otherwise). See Locations Codex for more info."
             ],
             "display_name": "Celestial Quests",
             "type": "Toggle",
-            "default": 1,
+            "default": 0,
             "group": "Celestial Options"
         },
         "allow celestial practice": {
             "description": [
-                "Allows the player to complete Celestial Quests through the Celestial Practice. With this off, you need to reach The Celestial through the Pylons at level 35+. Not for the faint of heart"
+                "When disabled, Celestial quests must be completed in a non-Practice run. We STRONGLY discourage playing with this disabled."
             ],
             "display_name": "Allow Celestial Practice",
             "type": "Toggle",
@@ -111,7 +111,7 @@
         },
         "celestial practice requires FRAGMENTs": {
             "description": [
-                "Requires the player to have collected the required amount of FRAGMENT OF BLOSSOM before they can access Celestial Practice."
+                "Requires the player to have collected the Required FRAGMENT OF BLOSSOM before they can access Celestial Practice."
             ],
             "display_name": "Celestial Practice Requires FRAGMENTs",
             "type": "toggle",
@@ -120,7 +120,7 @@
         },
         "celestial practice requires ungates": {
             "description": [
-                "Requires the player to have collected all 'Progressive Ungate Levels' before they can access Celestial Practice."
+                "Requires the player to logically be able to reach a level Celestial can be fought in before they can access Celestial Practice."
             ],
             "display_name": "Celestial Practice Requires Ungates",
             "type": "toggle",
@@ -129,16 +129,16 @@
         },
         "celestial practice requires roots": {
             "description": [
-                "Requires the player to have collected a matching class and ROOT item before they can access Celestial Practice. (Does nothing when randomize roots is off.)"
+                "Requires the player to have collected a matching class and ROOTS item before they can access Celestial Practice. (Does nothing when Randomize ROOTS is disabled.)"
             ],
-            "display_name": "Celestial Practice Requires Useable ROOTS",
+            "display_name": "Celestial Practice Requires ROOTS",
             "type": "toggle",
             "default": 0,
             "group": "Celestial Options"
         },
         "randomize fast track": {
             "description": [
-                "Adds 'Progressive Fast Track' item(s). When included, the player start on normal runs, and can play Fast Track when one item is collected. All option includes Fast Track+"
+                "Adds 'Progressive Fast Track' item(s). 'Fast Track Only' adds one copy, 'All' adds two. See Item Codex for more info."
             ],
             "display_name": "Randomize Fast Track",
             "type": "Choice",
@@ -147,7 +147,7 @@
                 "Fast Track Only": 1,
                 "All": 2
             },
-            "default": 1
+            "default": 0
         },
         "ostsanity": {
             "description": [
