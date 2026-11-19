@@ -33,12 +33,11 @@ def blossomFragmentReq(world: World, state: CollectionState, player: int):
 # I tink this is to-done
 def canFightCelestial(world: World, state: CollectionState, player: int):
     """Can the player access the Celestial fight"""
-    frag = is_option_enabled(world.multiworld, player, "celestial_practice_requires_fragments")
-    required_fragments = get_option_value(world.multiworld, player, "blossom_fragments_required")
-    ungate = is_option_enabled(world.multiworld, player, "celestial_practice_requires_ungate")
+    frag = is_option_enabled(world.multiworld, player, "celestial_practice_requires_FRAGMENTs")
+    ungate = is_option_enabled(world.multiworld, player, "celestial_practice_requires_ungates")
     root = is_option_enabled(world.multiworld, player, "celestial_practice_requires_roots")
     if frag:
-        check1 = state.has("FRAGMENT OF BLOSSOM", player, required_fragments)
+        check1 = blossomFragmentReq(world, state, player)
     if ungate:
         check2 = state.has("Progressive Ungate Levels", player, 4)
     if root:
