@@ -298,7 +298,7 @@ The goal is to reach a set "final level" (or defeat the Celestial) with a class 
 - ***Abilityless BITTER***: Dodge a BITTER attack (or similar) without using your ability.
 - ***Abilityless FUTILE***: Dodge a FUTILE attack (or similar) without using your ability.
 - ***Abilityless CEASE***: Dodge a CEASE attack without using your ability.
-- ***GET EVEN.*** / ***Defeat The Celestial***: Defeat the Celestial.</br>
+- ***Defeat The Celestial***: Defeat the Celestial.</br>
 
 ### <ins>*OSTs and Cursanity*</ins>
 
