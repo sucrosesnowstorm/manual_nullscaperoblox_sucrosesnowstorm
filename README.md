@@ -27,7 +27,8 @@ The goal is to reach a set "final level" (or defeat the Celestial) with a class 
 
 
 - ***Randomize Lategame Upgrades*** (`randomize_lategame_upgrades`, default: `true`)
-> By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later. Upgrades excluded by this option are written in italics in the [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#upgrades).
+> By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later. <br>
+> Upgrades excluded by this option are written in italics in the [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#upgrades).
 
 - ***Randomize Difficulty Selection*** (`randomize_lower_difficulty`, default: `true`)
 > Adds 2 '[Progressive Lower Difficulty](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#progression)'s. When included, the player starts on Extreme, and can lower difficulty when the items are collected.
@@ -35,7 +36,7 @@ The goal is to reach a set "final level" (or defeat the Celestial) with a class 
 - ***Starting Class*** (`starting_class`, default: `prisoner`, other choices: `wanted`, `charger`, `glider`, `grappler`, `spirit`, and `diver`)
 > Choose which class the player starts with.
 
-- ***goal*** (`goal`, default: `reach level 10`, other choices: `reach level 15`, `reach level 20`, `celestial (through practice)`, and `celestial`)
+- ***Goal Type*** (`goal`, default: `reach level 10`, other choices: `reach level 15`, `reach level 20`, `celestial (through practice)`, and `celestial`)
 > What is required to goal the game, once meeting all other requirements. (We STRONGLY discourage playing with Celestial proper as your goal.)
 
 - ***Total FRAGMENT OF BLOSSOM*** (`blossom_fragments_total`, default: `30`, range of `0`-`40`)
@@ -72,7 +73,7 @@ The goal is to reach a set "final level" (or defeat the Celestial) with a class 
 
 - ***OSTsanity*** (`ostsanity`, default: `Disabled`, other choices: `Levels <15 Only`, `Levels <30 Only`, and `Full`)
 > Includes a location for listening to each and every song in the soundtrack.<br>
-> (NOTE: Some songs in 'Full' only appear past Level 50. *We STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.*)
+> (NOTE: Some songs in 'Full' only appear past Level 50. <br>*We STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.*)
 
 - ***Cursanity*** (`cursanity`, default: `Disabled`, other choices: `Levels <15 Only` and `Full`)
 > Includes a location for selecting each and every curse (Does not include Greater Curses.)
