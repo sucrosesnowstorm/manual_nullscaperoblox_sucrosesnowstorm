@@ -30,7 +30,6 @@ def blossomFragmentReq(world: World, state: CollectionState, player: int):
     required_fragments = get_option_value(world.multiworld, player, "blossom_fragments_required")
     return state.has("FRAGMENT OF BLOSSOM", player, required_fragments)
 
-# I tink this is to-done
 def canFightCelestial(world: World, state: CollectionState, player: int):
     """Can the player access the Celestial fight"""
     frag = is_option_enabled(world.multiworld, player, "celestial_practice_requires_FRAGMENTs")
