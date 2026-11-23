@@ -54,6 +54,10 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         multiworld.worlds[player].options.blossom_fragments_required.value = get_option_value(multiworld, player, "blossom_fragments_total")
         logging.info("Required Blossom Fragments is greater than Total Blossom Fragments. Automatically adjusted Required to match Total.")
 
+    if not get_option_value(multiworld, player, "allow_celestial_practice") and get_option_value(multiworld, player, "goal") == 3:
+        logging.info("Allow Celestial Practice is disabled, but Goal is set to Celestial (Through Practice). Automatically enabling Allow Celestial Practice.")
+        multiworld.worlds[player].options.allow_celestial_practice.value = True
+
     if len(excluded) > 3 and (not get_option_value(multiworld, player, "ostsanity") and not get_option_value(multiworld, player, "cursanity")):
         raise OptionError(f"As it currently stands, You cannot exclude more than 3 classes, without any Sanity Options enabled. Either enable some Sanity Options, or include more classes")
     pass
@@ -100,7 +104,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             if excluded_categories.intersection(loc_data.get("category", [])):
                 locationNamesToRemove.append(loc_name)
 
-    if get_option_value(multiworld, player, "goal") == 4 or get_option_value(multiworld, player, "goal") == 5:  # Celestial goal. Remove the base Location
+    if get_option_value(multiworld, player, "goal") == 3 or get_option_value(multiworld, player, "goal") == 4:  # Celestial goal. Remove the base Location
         locationNamesToRemove.append("Defeat The Celestial")
 
     for region in multiworld.regions:
