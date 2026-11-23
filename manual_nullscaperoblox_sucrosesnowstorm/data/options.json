@@ -33,7 +33,7 @@
         },
         "randomize lategame upgrades": {  
             "description": [
-                "By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later. Upgrades excluded by this option are written in italics in the Item Codex."
+                "By default, all obtainable upgrades are randomized as Seeds. Disable to exclude upgrades that only appear at Level 15 or later. \nUpgrades excluded by this option are written in italics in the Item Codex."
             ],
             "display_name": "Randomize Lategame Upgrades",
 			"default": 1,
@@ -151,7 +151,7 @@
         },
         "ostsanity": {
             "description": [
-                "Includes a location for listening to each and every song in the soundtrack. (NOTE: Some songs in 'Full' only appear past Level 50. We STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.)"
+                "Includes a location for listening to each and every song in the soundtrack. (NOTE: Some songs in 'Full' only appear past Level 50. \nWe STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.)"
             ],
             "display_name": "OSTsanity",
             "type": "Choice",

@@ -55,6 +55,8 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     # options.type_hints["DLC_enabled"].display_name = "New Display Name"
     options.type_hints["goal"].options.clear()
     options.type_hints["goal"].options.update({"reach level 10": 0, "reach level 15": 1, "reach level 20": 2, "celestial (through practice)": 3, "celestial": 4})
+    options.type_hints["goal"].display_name = "Goal Type"
+    options.type_hints["goal"].__doc__ = "What is required to goal the game, once meeting all other requirements. We STRONGLY discourage playing with Celestial proper as your goal."
 
     options.type_hints["goal"].name_lookup.clear()
     options.type_hints["goal"].name_lookup.update({0: "reach level 10", 1: "reach level 15", 2: "reach level 20", 3: "celestial (through practice)", 4: "celestial"})
