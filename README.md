@@ -48,7 +48,7 @@ The goal is to reach a set "final level" (or defeat the Celestial) with a class 
 - ***Randomize ROOTS*** (`randomize_roots`, default: `true`)
 > Include a ROOTS item for each class, which are a requirement for a class to goal. See [summary](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#gimme-a-quick-summary) and [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#bloom) for more info.
 
-- ***Randomize Fast Track*** (`randomize_fast_track`, default: `false`)
+- ***Randomize Fast Track*** (`randomize_fast_track`, default: `none`)
 > Adds 'Progressive Fast Track' item(s). 'Fast Track Only' adds one copy, 'All' adds two. See [Item Codex](https://github.com/sucrosesnowstorm/manual_nullscaperoblox_sucrosesnowstorm#progression) for more info.
 
 - ***Classes Excluded*** (`class_exclude`, default: none)
