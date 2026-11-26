@@ -151,7 +151,11 @@
         },
         "ostsanity": {
             "description": [
+<<<<<<< Updated upstream
                 "Includes a location for listening to each and every song in the soundtrack. (NOTE: Some songs in 'Full' only appear past Level 50. We STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.)"
+=======
+                "Includes a location for listening to each and every song in the soundtrack. \n(NOTE: Some songs in 'Full' only appear past Level 50. \nWe STRONGLY discourage playing with Full OSTsanity unless you are ABSOLUTELY CERTAIN you (or your group) can handle it.)"
+>>>>>>> Stashed changes
             ],
             "display_name": "OSTsanity",
             "type": "Choice",
