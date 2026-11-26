@@ -71,5 +71,4 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
-    groups.append(OptionGroup("Insanity Options", [ClassExclude]))
     return groups
